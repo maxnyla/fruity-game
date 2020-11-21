@@ -30,6 +30,7 @@
 }
 
 body {
+    background-color:#eeb6dc;
     /*overflow: hidden;*/
     /*height: 0;*/
 }
@@ -44,7 +45,12 @@ body {
 
 .game-rules-header {
     color: #e1ff08;
+}
 
+
+.game-rules-text {
+    color: aqua;
+    size: 3em;
 }
 
 .main-photo {
@@ -56,6 +62,9 @@ body {
     min-height: 100vh;
 }
 
+.main-photo-container {
+     background-color: #fd7cd5;
+}
 
 .home-main-container {
     background-color: #fd7cd5;
