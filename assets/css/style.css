@@ -114,7 +114,7 @@ body {
 /* Footer */
 
 .myfooter {
-    background-color: transparent;
+    background-color: #fd7cd57d;
 	left: 0;
 	width: 100%;
 	color: hsla(318, 61%, 43%, 0.918);
@@ -131,10 +131,15 @@ body {
     color:cyan;
 }
 
+.social-media a {
+    color: #a519ec;
+    font-weight: 500;
+}
+
 
 .social-media i {
 	color: hsla(318, 61%, 43%, 0.918);
-	font-size: 1.7em;
+	font-size: 1em;
 	margin: .4em;
 	padding: .4em;
 }
