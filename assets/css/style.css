@@ -157,6 +157,19 @@ body {
 
 /* GAME PAGE */
 
+.main-container {
+    background-color: #dc40da54;
+}
+
+.try-header-text {
+    color: purple;
+}
+
+.game-info-timer-text,
+.game-info-flips-text {
+    color:cyan;
+}
+
 
 .game-info {}
 
