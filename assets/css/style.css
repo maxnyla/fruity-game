@@ -1,4 +1,5 @@
 
+/* HOME PAGE */
 
 /* Navigation */
 
@@ -29,6 +30,8 @@
 	font-style: italic;
 }
 
+/* Main Body */
+
 body {
     /*background-color:#fd7cd5;*/
     /*background-color:#eeb6dc;*/
@@ -41,16 +44,18 @@ body {
 }
 
 .game-title {
-    color: #1f23a2;
+    color: #e1ff08;
+    font-size: 3em;
 }
 
 .game-rules-header {
-    color: #e1ff08;
+    color: aqua;
+    /*color: #e1ff08;*/
 }
 
 
 .game-rules-text {
-    color: aqua;
+    color: white;
     font-size: 1.5em;
 }
 
@@ -70,7 +75,7 @@ body {
 	/*background-size: contain;*/
 	/*display: flex;*/
 	justify-content: center;
-    min-height: 100vh;
+    /*min-height: 100vh;*/
 }
 
 .main-home-container {
@@ -80,6 +85,68 @@ body {
 .rules-container {
     /*background-color: #292f9642;*/
 }
+
+.game-link-text {
+    color: white;
+    font-size: 3em;
+    font-weight: 10em;  
+}
+
+.game-link-button {
+    background-color: cyan;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 7em;
+    padding: 1.4em;
+    text-align: center;
+    color: #f70b79;
+    font-weight: 800;
+}
+
+.game-link-button a {
+    text-decoration: none;
+    background-color: transparent;
+    text-transform: uppercase;
+}
+
+
+/* Footer */
+
+.myfooter {
+    background-color: transparent;
+	left: 0;
+	width: 100%;
+	color: hsla(318, 61%, 43%, 0.918);
+	font-weight: 400;
+	font-size: 1.4em;
+}
+
+
+.social-networks {
+    text-align: center;
+}
+
+
+.social-media i {
+	color: hsla(318, 61%, 43%, 0.918);
+	font-size: 1.7em;
+	margin: .4em;
+	padding: .4em;
+}
+
+.social-media a:hover,
+.social-media-home a:hover {
+	color: aqua;
+}
+
+.social-media i:hover,
+.social-media-home i:hover {
+	color: aqua;
+}
+
+
+/* GAME PAGE */
+
 
 .game-info {}
 
