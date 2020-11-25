@@ -30,7 +30,8 @@
 }
 
 body {
-    background-color:#eeb6dc;
+    background-color:#fd7cd5;
+    /*background-color:#eeb6dc;*/
     /*overflow: hidden;*/
     /*height: 0;*/
 }
@@ -50,7 +51,7 @@ body {
 
 .game-rules-text {
     color: aqua;
-    size: 3em;
+    font-size: 1.5em;
 }
 
 .main-photo {
@@ -71,7 +72,7 @@ body {
 }
 
 .rules-container {
-    background-color: #292f9642;
+    /*background-color: #292f9642;*/
 }
 
 .game-info {}
