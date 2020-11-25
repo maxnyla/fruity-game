@@ -101,6 +101,7 @@ body {
     text-align: center;
     color: #f70b79;
     font-weight: 800;
+    border-style: dashed;
 }
 
 .game-link-button a {
@@ -124,6 +125,10 @@ body {
 
 .social-networks {
     text-align: center;
+}
+
+.fa-trophy {
+    color:cyan;
 }
 
 
