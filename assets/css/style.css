@@ -30,7 +30,7 @@
 }
 
 body {
-    background-color:#fd7cd5;
+    /*background-color:#fd7cd5;*/
     /*background-color:#eeb6dc;*/
     /*overflow: hidden;*/
     /*height: 0;*/
@@ -55,19 +55,25 @@ body {
 }
 
 .main-photo {
-    width: 100%;
-    background: url("assets/img/juicy.png") no-repeat center fixed;
+    /*width: 100%;
+    background: url("../img/juicy4.png") no-repeat center fixed;
 	background-size: contain;
 	display: flex;
+	justify-content: center;
+    min-height: 100vh;*/
+}
+
+.main-photo-container {
+    /*background-color: #fd7cd5;*/
+       /*width: 100%;*/
+    /*background: url("../img/juicy4.png") no-repeat center fixed;*/
+	/*background-size: contain;*/
+	/*display: flex;*/
 	justify-content: center;
     min-height: 100vh;
 }
 
-.main-photo-container {
-     background-color: #fd7cd5;
-}
-
-.home-main-container {
+.main-home-container {
     background-color: #fd7cd5;
 }
 
