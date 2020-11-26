@@ -46,6 +46,7 @@ body {
 .game-title {
     color: #e1ff08;
     font-size: 3em;
+    font-family: 'Monoton', cursive;
 }
 
 .game-rules-header {
@@ -162,12 +163,17 @@ body {
 }
 
 .try-header-text {
-    color: purple;
+    color: #233394;
+    font-family: 'Bungee Inline', cursive;
+    /*font-family: 'Monoton', cursive;*/
 }
 
 .game-info-timer-text,
 .game-info-flips-text {
-    color:cyan;
+    color: #85bb05;
+    /*color:#ff0f63;*/
+    /*color:cyan;*/
+    font-family: 'Rammetto One', cursive;
 }
 
 
