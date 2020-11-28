@@ -173,16 +173,16 @@ li {
 }
 
 .cards{
-  display: inline;
+  display: inline-flex;
  
 }
-
 
 
 
 .main-container {
     background-color: #040404;
     /*background-color: #dc40da54;*/
+    height: 100vh;
 }
 
 .try-header-text {
