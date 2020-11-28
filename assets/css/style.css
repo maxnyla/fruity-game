@@ -158,13 +158,9 @@ body {
 
 /* GAME PAGE */
 
-#back_cards {
+#back_cards {}
 
-}
-
-#list_cards {
-
-}
+#list_cards {}
 
 
 li {
@@ -176,9 +172,14 @@ li {
   display: inline-flex;
   height: 280px;
   width: 280px;
- 
+  margin: 1px;
+  transform: scale(.97);
 }
 
+
+.cards:hover {
+    transform: scale(1);
+}
 
 
 .main-container {

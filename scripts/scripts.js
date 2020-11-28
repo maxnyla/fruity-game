@@ -83,3 +83,29 @@ function flip(index){
   if (userClicks.length === 2) userClicks.length = 0;
   
 }
+
+
+
+
+
+//function flip(index){
+  
+  //userClicks.push(index);
+
+  //console.log(userClicks);
+  
+  //alert(cards[index].name);
+  
+  //if (userClicks.length === 2) {
+   // if (cards[userClicks[0]].name === cards[userClicks[1]].name) {
+   //   document.getElementById(userClicks[0]).innerHTML = `<img style="width:280px" class="img-fluid" src="${cards[userClicks[0]].image}">`;
+   //  document.getElementById(userClicks[1]).innerHTML = `<img style="width:280px" class="img-fluid" src="${cards[userClicks[1]].image}">`;
+      
+      
+    //  userClicks.length = 0;
+    //}
+  //}
+  
+  //if (userClicks.length === 2) userClicks.length = 0;
+  
+//}
