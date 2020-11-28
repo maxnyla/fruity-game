@@ -158,15 +158,44 @@ body {
 
 /* GAME PAGE */
 
+#back_cards {
+
+}
+
+#list_cards {
+
+}
+
+
+li {
+  padding: 3px;
+  list-style: none;
+}
+
+.cards{
+  display: inline;
+ 
+}
+
+
+
+
 .main-container {
-    background-color: #dc40da54;
+    background-color: #040404;
+    /*background-color: #dc40da54;*/
 }
 
 .try-header-text {
-    color: #233394;
+    color: #09d9fb;
+    /*color: #233394;*/
     font-family: 'Bungee Inline', cursive;
     /*font-family: 'Monoton', cursive;*/
 }
+
+.shot {
+    color: white;
+}
+
 
 .game-info-timer-text,
 .game-info-flips-text {

@@ -50,102 +50,43 @@
       </header>
 
 <div class="main-container">
-
-<div class="main-try-container">
-    <div class="container try-container">
-        <div class="row try-header justify-content-center">
-            <div class="col-md-4">
-                <div class="row justify-content-center">
-                    <div class="col try-header-text mt-5 mb-3">
-                            <h1>Play now!</h1>
-                            <h6>Give it a shot and try to succeed</h6>
+    <div class="main-try-container">
+        <div class="container try-container">
+            <div class="row try-header justify-content-center">
+                <div class="col-md-4">
+                    <div class="row justify-content-center">
+                        <div class="col mt-5 mb-3">
+                                <h1 class="try-header-text">Play now!</h1>
+                                <h6 class="shot">Give it a shot and try to succeed</h6>
+                        </div>
                     </div>
+                
+                <div class="row game-info justify-content-center mb-5">
+                        <div class="col game-info-timer-text ">
+                            <div class="game-info-timer">
+                                Time: <span id="time-remaining">100</span>
+                            </div>
+                        </div>
+                        <div class="col game-info-flips-text">
+                            <div class="game-info-flips">
+                                Flips: <span id="flips">0</span>
+                            </div>
+                        </div>
                 </div>
-            
-            <div class="row game-info justify-content-center mb-5">
-                    <div class="col game-info-timer-text ">
-                        <div class="game-info-timer">
-                            Time: <span id="time-remaining">100</span>
-                        </div>
-                    </div>
-                    <div class="col game-info-flips-text">
-                        <div class="game-info-flips">
-                            Flips: <span id="flips">0</span>
-                        </div>
-                    </div>
-            </div>
+                </div>
             </div>
         </div>
     </div>
-</div>
-
-
-<div class="container main-game">
-<div class="row">
-    <section class="fruit-game">
-            <div class="fruit-card"> 
-                <img class="front-card" src="assets/img/blackgr.jpg" alt="Black grape">
-                <img class="back-card" src="assets/img/juicy.png" alt="Back of card">  
-            </div>
-
-            <div class="fruit-card"> 
-                <img class="front-card" src="assets/img/blackgr.jpg" alt="Black grape">
-                <img class="back-card" src="assets/img/juicy.png" alt="Back of card">  
-            </div>
-
-            <div class="fruit-card"> 
-                <img class="front-card" src="assets/img/blueb.jpg" alt="Blueberry">
-                <img class="back-card" src="assets/img/juicy.png" alt="Back of card">  
-            </div>
-
-            <div class="fruit-card"> 
-                <img class="front-card" src="assets/img/blueb.jpg" alt="Blueberry">
-                <img class="back-card" src="assets/img/juicy.png" alt="Back of card">  
-            </div>
-            
-            <div class="fruit-card"> 
-                <img class="front-card" src="assets/img/grapefr.jpg" alt="Grapefruit">
-                <img class="back-card" src="assets/img/juicy.png" alt="Back of card">  
-            </div>
-
-            <div class="fruit-card"> 
-                <img class="front-card" src="assets/img/grapefr.jpg" alt="Grapefruit">
-                <img class="back-card" src="assets/img/juicy.png" alt="Back of card">  
-            </div>
-            
-            <div class="fruit-card"> 
-                <img class="front-card" src="assets/img/raspb.jpg" alt="Raspberry">
-                <img class="back-card" src="assets/img/juicy.png" alt="Back of card">  
-            </div>
-
-            <div class="fruit-card"> 
-                <img class="front-card" src="assets/img/raspb.jpg" alt="Raspberry">
-                <img class="back-card" src="assets/img/juicy.png" alt="Back of card">  
-            </div>
-
-            <div class="fruit-card"> 
-                <img class="front-card" src="assets/img/redgr.jpg" alt="Red grape">
-                <img class="back-card" src="assets/img/juicy.png" alt="Back of card">  
-            </div>
-
-            <div class="fruit-card"> 
-                <img class="front-card" src="assets/img/redgr.jpg" alt="Red grape">
-                <img class="back-card" src="assets/img/juicy.png" alt="Back of card">  
-            </div>
-
-            <div class="fruit-card"> 
-                <img class="front-card" src="assets/img/strawb.jpg" alt="Strawberry">
-                <img class="back-card" src="assets/img/juicy.png" alt="Back of card">  
-            </div>
-
-            <div class="fruit-card"> 
-                <img class="front-card" src="assets/img/strawb.jpg" alt="Strawberry">
-                <img class="back-card" src="assets/img/juicy.png" alt="Back of card">  
-            </div>
-
-    </section>
-</div>
-</div>
+    
+    <div class="container main-game">
+        <div class="row">
+            <section class="fruit-game">
+                <div id="back_cards"></div>
+                    <hr>
+                <div id="list_cards"></div>
+            </section>
+        </div>
+    </div>
 </div>
 
 <!-- Footer -->
