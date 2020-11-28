@@ -41,7 +41,7 @@ function load_back_cards(cards) {
   
   for (let i = 0; i < numberOfCards; i++){
     element.innerHTML += `<li id="${i}" class="cards">
-                              <img style="width:300px" class="img-fluid" src="assets/img/juicy4.png" onclick=flip(${i})>
+                              <img style="width:280px" class="img-fluid" src="assets/img/juicy4.png" onclick=flip(${i})>
                           </li>`
   }
 }
@@ -72,8 +72,8 @@ function flip(index){
   
   if (userClicks.length === 2) {
     if (cards[userClicks[0]].name === cards[userClicks[1]].name) {
-      document.getElementById(userClicks[0]).innerHTML = `<img style="width:300px" class="img-fluid" src="${cards[userClicks[0]].image}">`;
-      document.getElementById(userClicks[1]).innerHTML = `<img style="width:300px" class="img-fluid" src="${cards[userClicks[1]].image}">`;
+      document.getElementById(userClicks[0]).innerHTML = `<img style="width:280px" class="img-fluid" src="${cards[userClicks[0]].image}">`;
+      document.getElementById(userClicks[1]).innerHTML = `<img style="width:280px" class="img-fluid" src="${cards[userClicks[1]].image}">`;
       
       
       userClicks.length = 0;
