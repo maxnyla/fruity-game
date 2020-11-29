@@ -222,12 +222,12 @@ li {
     /*border: 5px solid white;*/
     /*width: 640px;
     height: 640px;*/
-    padding: 0;
+    /*padding: 0;
     margin: 0;
     box-sizing: border-box;
     display: flex;
     flex-wrap: wrap;
-    margin: auto;
+    margin: auto;*/
 }
 
 .fruit-card {
@@ -309,6 +309,11 @@ li {
         transform: scale(.97);
     }
 
+     .try-header-text {
+        font-size: 2rem;
+    }
+
+
 }
 
 
@@ -322,6 +327,10 @@ li {
         margin: 1px;
         transform: scale(.97);
     }
+
+     .try-header-text {
+        font-size: 3rem;
+    }
 }
 
 @media only screen and (max-width: 1199px) and (min-width: 993px) {
@@ -332,4 +341,16 @@ li {
         margin: 1px;
         transform: scale(.97);
     }
+
+    .try-header-text {
+        font-size: 3.5rem;
+    }
 }
+
+
+@media only screen and (max-width: 1700px) and (min-width: 1200px) {
+    .try-header-text {
+        font-size: 4rem;
+    }
+}
+
