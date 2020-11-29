@@ -277,11 +277,13 @@ li {
     }
 
     .game-rules-header {
-        font-size: 1.3em;
+        font-size: 1.4em;
+        font-weight: 700;
     }
 
     .game-rules-text {
         font-size: 1em;
+        font-weight: 500;
     }
 
 
@@ -294,7 +296,7 @@ li {
 		font-size: 1.1em;
 	}
 
-  .footer-text {
+    .footer-text {
         font-size: .6em;
         font-weight:bold;
     }
