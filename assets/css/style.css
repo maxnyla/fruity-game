@@ -170,8 +170,8 @@ li {
 
 .cards{
   display: inline-flex;
-  height: 280px;
-  width: 280px;
+  height: 240px;
+  width: 240px;
   margin: 1px;
   transform: scale(.97);
 }
@@ -301,4 +301,35 @@ li {
         font-weight:bold;
     }
 
+    .cards {
+        display: inline-flex;
+        height: 110px;
+        width: 110px;
+        margin: 1px;
+        transform: scale(.97);
+    }
+
+}
+
+
+
+
+@media only screen and (max-width: 992px) and (min-width: 768px) {
+    .cards {
+        display: inline-flex;
+        height: 160px;
+        width: 160px;
+        margin: 1px;
+        transform: scale(.97);
+    }
+}
+
+@media only screen and (max-width: 1199px) and (min-width: 993px) {
+    .cards {
+        display: inline-flex;
+        height: 215px;
+        width: 215px;
+        margin: 1px;
+        transform: scale(.97);
+    }
 }
