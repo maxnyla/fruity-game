@@ -19,6 +19,7 @@ var cards = [
 var userClicks = [];
 
 
+
 window.addEventListener("load", function(){
   
   
@@ -62,18 +63,27 @@ function load_list_cards(cards) {
 
 
 
+
 function flip(index){
   
   userClicks.push(index);
 
   console.log(userClicks);
 
+
+  
   alert(cards[index].name);
+
+
+ //document.write(`<img style="width:280px" class="img-fluid" src="${cards[userClicks[0]].image}">`);
+
+
+
   
   if (userClicks.length === 2) {
     if (cards[userClicks[0]].name === cards[userClicks[1]].name) {
       document.getElementById(userClicks[0]).innerHTML = `<img style="width:280px" class="img-fluid" src="${cards[userClicks[0]].image}">`;
-      document.getElementById(userClicks[1]).innerHTML = `<img style="width:280px" class="img-fluid" src="${cards[userClicks[1]].image}">`;
+     document.getElementById(userClicks[1]).innerHTML = `<img style="width:280px" class="img-fluid" src="${cards[userClicks[1]].image}">`;
       
       
       userClicks.length = 0;
@@ -83,6 +93,9 @@ function flip(index){
   if (userClicks.length === 2) userClicks.length = 0;
   
 }
+
+
+
 
 
 

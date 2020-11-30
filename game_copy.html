@@ -13,7 +13,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Rammetto+One&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/style_copy.css" type="text/css">
     <title>Fruity game</title>
 </head>
 
@@ -22,7 +22,7 @@
 <header>
     <nav class="navbar navbar-expand-sm navbar-dark bg-custom-pink">
         <a class="navbar-brand logo" href="index.html">
-        <img class="logo" src="assets/images/blueb.jpg" 
+        <img class="logo" src="assets/img/" 
             alt="Let's get fruity">
         </a>
         <button class="navbar-toggler" 
@@ -50,110 +50,107 @@
       </header>
 
 <div class="main-container">
-
-<div class="main-try-container">
-    <div class="container try-container">
-        <div class="row try-header justify-content-center">
-            <div class="col-md-4">
-                <div class="row justify-content-center">
-                    <div class="col try-header-text mt-5 mb-3">
-                            <h1>Play now!</h1>
-                            <h6>Give it a shot and try to succeed</h6>
+    <div class="main-try-container">
+        <div class="container try-container">
+            <div class="row try-header justify-content-center">
+                <div class="col-md-6">
+                    <div class="row justify-content-center">
+                        <div class="col mt-5 mb-3">
+                                <h1 class="try-header-text">Play now</h1>
+                                 <h5 class="shot">See if you succeed!</h5>
+                        </div>
                     </div>
+                
+                <div class="row game-info justify-content-center mb-5">
+                        <div class="col game-info-timer-text ">
+                            <div class="game-info-timer">
+                                Time: <span id="time-remaining">100</span>
+                            </div>
+                        </div>
+                        <div class="col game-info-flips-text">
+                            <div class="game-info-flips">
+                                Flips: <span id="flips">0</span>
+                            </div>
+                        </div>
                 </div>
-            
-            <div class="row game-info justify-content-center mb-5">
-                    <div class="col game-info-timer-text ">
-                        <div class="game-info-timer">
-                            Time: <span id="time-remaining">100</span>
-                        </div>
-                    </div>
-                    <div class="col game-info-flips-text">
-                        <div class="game-info-flips">
-                            Flips: <span id="flips">0</span>
-                        </div>
-                    </div>
-            </div>
+                </div>
             </div>
         </div>
     </div>
-</div>
-
 
 <div class="container main-game">
 <div class="row">
-    <section class="fruit-game">
-            <div class="fruit-card"> 
+    <div class="fruit-game">
+            <div class="fruit-card" data-frame="blackgrape"> 
                 <img class="front-card" src="assets/img/blackgr.jpg" alt="Black grape">
                 <img class="back-card" src="assets/img/juicy.png" alt="Back of card">  
             </div>
 
-            <div class="fruit-card"> 
+            <div class="fruit-card" data-frame="blackgrape"> 
                 <img class="front-card" src="assets/img/blackgr.jpg" alt="Black grape">
                 <img class="back-card" src="assets/img/juicy.png" alt="Back of card">  
             </div>
 
-            <div class="fruit-card"> 
+            <div class="fruit-card" data-frame="blueberry"> 
                 <img class="front-card" src="assets/img/blueb.jpg" alt="Blueberry">
                 <img class="back-card" src="assets/img/juicy.png" alt="Back of card">  
             </div>
 
-            <div class="fruit-card"> 
+            <div class="fruit-card" data-frame="blueberry"> 
                 <img class="front-card" src="assets/img/blueb.jpg" alt="Blueberry">
                 <img class="back-card" src="assets/img/juicy.png" alt="Back of card">  
             </div>
             
-            <div class="fruit-card"> 
+            <div class="fruit-card" data-frame="grapefruit"> 
                 <img class="front-card" src="assets/img/grapefr.jpg" alt="Grapefruit">
                 <img class="back-card" src="assets/img/juicy.png" alt="Back of card">  
             </div>
 
-            <div class="fruit-card"> 
+            <div class="fruit-card" data-frame="grapefruit"> 
                 <img class="front-card" src="assets/img/grapefr.jpg" alt="Grapefruit">
                 <img class="back-card" src="assets/img/juicy.png" alt="Back of card">  
             </div>
             
-            <div class="fruit-card"> 
+            <div class="fruit-card" data-frame="raspberry"> 
                 <img class="front-card" src="assets/img/raspb.jpg" alt="Raspberry">
                 <img class="back-card" src="assets/img/juicy.png" alt="Back of card">  
             </div>
 
-            <div class="fruit-card"> 
+            <div class="fruit-card" data-frame="raspberry"> 
                 <img class="front-card" src="assets/img/raspb.jpg" alt="Raspberry">
                 <img class="back-card" src="assets/img/juicy.png" alt="Back of card">  
             </div>
 
-            <div class="fruit-card"> 
+            <div class="fruit-card" data-frame="redgrape"> 
                 <img class="front-card" src="assets/img/redgr.jpg" alt="Red grape">
                 <img class="back-card" src="assets/img/juicy.png" alt="Back of card">  
             </div>
 
-            <div class="fruit-card"> 
+            <div class="fruit-card" data-frame="redgrape"> 
                 <img class="front-card" src="assets/img/redgr.jpg" alt="Red grape">
                 <img class="back-card" src="assets/img/juicy.png" alt="Back of card">  
             </div>
 
-            <div class="fruit-card"> 
+            <div class="fruit-card" data-frame="strawberry"> 
                 <img class="front-card" src="assets/img/strawb.jpg" alt="Strawberry">
                 <img class="back-card" src="assets/img/juicy.png" alt="Back of card">  
             </div>
 
-            <div class="fruit-card"> 
+            <div class="fruit-card" data-frame="strawberry"> 
                 <img class="front-card" src="assets/img/strawb.jpg" alt="Strawberry">
                 <img class="back-card" src="assets/img/juicy.png" alt="Back of card">  
             </div>
 
-    </section>
+    </div>
 </div>
 </div>
 </div>
-
 <!-- Footer -->
 <footer>
     <div class="container-fluid footer myfooter">
         <div class="row justify-content-center">
             <div class="col-8 footer-text social-media">
-              <p><i class="fab fa-instagram"></i>With many thanks to <a href="https://www.instagram.com" target="_blank">Danika Draws</a> for letting me use her fantastic illustration</p>
+              <p><i class="fab fa-instagram"></i>Many thanks to <a href="https://www.instagram.com" target="_blank">Danika draws</a> for the use of her fantastic illustration</p>
             </div>
         </div>
     </div>
@@ -161,7 +158,7 @@
 <!-- /.Footer -->
 
 <!-- Load scripts -->
-<script type="text/javascript" src="scripts/scripts.js"></script>
+<script type="text/javascript" src="scripts/scripts_copy_copy.js"></script>
 <script src="https://kit.fontawesome.com/dadd5c7e02.js" crossorigin="anonymous"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>

@@ -168,18 +168,6 @@ li {
   list-style: none;
 }
 
-.cards{
-  display: inline-flex;
-  height: 240px;
-  width: 240px;
-  margin: 1px;
-  transform: scale(.97);
-}
-
-.cards:hover {
-    transform: scale(1);
-    transition: transform .2s ease-in-out;
-}
 
 .main-container {
     background-color: #040404;
@@ -230,6 +218,23 @@ li {
     margin: auto;*/
 }
 
+.cards{
+  display: inline-flex;
+  height: 240px;
+  width: 240px;
+  margin: 1px;
+  transform: scale(.97);
+  
+  /*transform-style: preserve-3d;
+  transition: transform .5s;*/
+}
+
+.cards:hover {
+    transform: scale(1);
+    transition: transform .2s ease-in-out;
+}
+
+
 .fruit-card {
     border: 3px solid white;
     /*background-color: white;*/
@@ -238,12 +243,16 @@ li {
     height: calc(33.333% -10px);
     position: relative;
     transform: scale(1);
+
+    /*transform-style: preserve-3d;
+    transition: transform .5s;*/
 }
 
 .fruit-card:active {
     transform: scale(.97);
     transition: transform .2s;
 }
+
 
 
 .front-card,
