@@ -39,8 +39,6 @@ function doCardsMatch(){
 }
 
 
-
-
 function removeCards(){
      firstCard.removeEventListener('click, flipCard');
      secondCard.removeEventListener('click, flipCard');
