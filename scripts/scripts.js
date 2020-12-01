@@ -1,124 +1,81 @@
+const cards = document.querySelectorAll('.fruit-card');
 
-
-var cards = [
-  {"name" : "blackgrape", "image": "assets/img/blackgr.jpg"},
-  {"name" : "blueberry", "image": "assets/img/blueb.jpg"},
-  {"name" : "grapefruit", "image": "assets/img/grapefr.jpg"},
-  {"name" : "raspberry", "image": "assets/img/raspb.jpg"},
-  {"name" : "redgrape", "image": "assets/img/redgr.jpg"},
-  {"name" : "strawberry", "image": "assets/img/strawb.jpg"},
-  {"name" : "blackgrape", "image": "assets/img/blackgr.jpg"},
-  {"name" : "blueberry", "image": "assets/img/blueb.jpg"},
-  {"name" : "grapefruit", "image": "assets/img/grapefr.jpg"},
-  {"name" : "raspberry", "image": "assets/img/raspb.jpg"},
-  {"name" : "redgrape", "image": "assets/img/redgr.jpg"},
-  {"name" : "strawberry", "image": "assets/img/strawb.jpg"}
-]
-
-
-var userClicks = [];
+let cardFlipped = false;
+let blockClick = false;
+let firstCard, secondCard;
 
 
 
-window.addEventListener("load", function(){
+function flipCard(){
+  if (blockClick) return;
+  if (this === firstCard) return;
+
+  this.classList.add('flip');
   
-  
-  cards.sort(function(a, b){return 0.5 - Math.random();});
+  if (!cardFlipped) {
+    // first clicked card
+    cardFlipped = true;
+    firstCard = this;
+  } else {
+    //second clicked card
+    cardFlipped = false;
+    secondCard = this;
+    
+    doCardsMatch();
 
-  
-  load_back_cards(cards);
-  
-  
-  load_list_cards(cards);
-  
-});
+}
+}
 
-
-
-function load_back_cards(cards) {
-  let numberOfCards = cards.length;
-  
-  let element = document.getElementById("back_cards");
-  
-  for (let i = 0; i < numberOfCards; i++){
-    element.innerHTML += `<li id="${i}" class="cards">
-                              <img style="width:280px" class="img-fluid" src="assets/img/juicy4.png" onclick=flip(${i})>
-                          </li>`
-  }
+function doCardsMatch(){
+    //do the two cards match? 
+   if (firstCard.dataset.frame ===
+       secondCard.dataset.frame) {
+      //they match:
+       removeCards();
+     //they don't match:
+     } else {
+       unflipCards();
+  }            
 }
 
 
+function removeCards(){
+     firstCard.removeEventListener('click, flipCard');
+     secondCard.removeEventListener('click, flipCard');
 
-function load_list_cards(cards) {
-  let numberOfCards = cards.length;
-  
-  let element = document.getElementById("list-cards");
-  
-  for (let i = 0; i < numberOfCards; i++){
-    element.innerHTML += `<ol>
-                              ${i + 1} - ${cards[i].name}
-                          </ol>`
-  }
+     resetGame();
 }
 
 
+function unflipCards(){
+        blockClick = true;
 
+        setTimeout(() => {
+        firstCard.classList.remove('flip');
+        secondCard.classList.remove('flip');
 
-function flip(index){
-  
-  userClicks.push(index);
+        blockClick = false;
+        resetGame();
+      }, 1000);
+}
+         
 
-  console.log(userClicks);
-
-
-  
-  alert(cards[index].name);
-
-
- //document.write(`<img style="width:280px" class="img-fluid" src="${cards[userClicks[0]].image}">`);
-
-
-
-  
-  if (userClicks.length === 2) {
-    if (cards[userClicks[0]].name === cards[userClicks[1]].name) {
-      document.getElementById(userClicks[0]).innerHTML = `<img style="width:280px" class="img-fluid" src="${cards[userClicks[0]].image}">`;
-     document.getElementById(userClicks[1]).innerHTML = `<img style="width:280px" class="img-fluid" src="${cards[userClicks[1]].image}">`;
-      
-      
-      userClicks.length = 0;
-    }
-  }
-  
-  if (userClicks.length === 2) userClicks.length = 0;
-  
+function resetGame(){
+  [cardFlipped, blockClick] = [false, false];
+  [firstCard, secondCard] = [null, null];
 }
 
 
+(function shuffle() {
+  cards.forEach(card => {
+    let randomPos = Math.floor(Math.random() * 12);
+    card.style.order = randomPos;  
+  });
+})();
+
+                    
+cards.forEach(card => card.addEventListener('click', flipCard));
 
 
 
-
-
-
-//function flip(index){
-  
-  //userClicks.push(index);
-
-  //console.log(userClicks);
-  
-  //alert(cards[index].name);
-  
-  //if (userClicks.length === 2) {
-   // if (cards[userClicks[0]].name === cards[userClicks[1]].name) {
-   //   document.getElementById(userClicks[0]).innerHTML = `<img style="width:280px" class="img-fluid" src="${cards[userClicks[0]].image}">`;
-   //  document.getElementById(userClicks[1]).innerHTML = `<img style="width:280px" class="img-fluid" src="${cards[userClicks[1]].image}">`;
-      
-      
-    //  userClicks.length = 0;
-    //}
-  //}
-  
-  //if (userClicks.length === 2) userClicks.length = 0;
-  
-//}
+                 
