@@ -115,8 +115,8 @@ body {
 
 /* Footer */
 
-.myfooter {
-    background-color: #fd7cd57d;
+.myfooter-home {
+    background-color: white;
 	left: 0;
 	width: 100%;
 	color: hsla(318, 61%, 43%, 0.918);
@@ -232,8 +232,13 @@ li {
 body {
   min-height: 100vh;
   /*display: flex;*/
-  background: black;
+  /*background: black;*/
 }
+
+.game-body {
+    background-color: black;
+}
+
 
 .fruit-game {
   /*width: 900px;
