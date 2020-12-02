@@ -253,10 +253,10 @@ body {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-
-  min-height: 100vh;
   display: flex;
   background: black;
+
+  /*min-height: 100vh;*/
 }
 
 .fruit-card {
@@ -335,7 +335,27 @@ body {
 
 /* settings for mobile up to tablet and small laptop/desktop size*/
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 367px) {
+    .front-card,
+    .back-card {
+        display: inline-flex;
+        height: 70px;
+        width: 70px;
+        margin: 1px;
+        transform: scale(.97);
+    }
+
+
+    .fruit-card {
+        display: inline-flex;
+        height: 70px;
+        width: 70px;
+        margin: 1px;
+     }
+}
+
+
+@media screen and (max-width: 768px) and (min-width: 367px) {
 	.navbar-menu,
 	.navbar-dark,
 	.navbar-nav,
@@ -373,7 +393,11 @@ body {
         font-weight:bold;
     }
 
-    .cards {
+     .try-header-text {
+        font-size: 2rem;
+    }
+
+     .cards {
         display: inline-flex;
         height: 110px;
         width: 110px;
@@ -381,17 +405,34 @@ body {
         transform: scale(.97);
     }
 
-     .try-header-text {
-        font-size: 2rem;
+     .front-card,
+     .back-card {
+        display: inline-flex;
+        height: 110px;
+        width: 110px;
+        margin: 1px;
+        transform: scale(.97);
     }
 
 
+     .fruit-card {
+        display: inline-flex;
+        height: 110px;
+        width: 110px;
+        margin: 1px;
+     }
 }
 
 
 
 
+
+
 @media only screen and (max-width: 992px) and (min-width: 768px) {
+     .try-header-text {
+        font-size: 3rem;
+    }
+
     .cards {
         display: inline-flex;
         height: 160px;
@@ -400,12 +441,33 @@ body {
         transform: scale(.97);
     }
 
-     .try-header-text {
-        font-size: 3rem;
+    .front-card,
+    .back-card {
+        display: inline-flex;
+        height: 160px;
+        width: 160px;
+        margin: 1px;
+        transform: scale(.97);
     }
+
+
+    .fruit-card {
+        display: inline-flex;
+        height: 160px;
+        width: 160px;
+        margin: 1px;
+    }
+
 }
 
+
+
+
 @media only screen and (max-width: 1199px) and (min-width: 993px) {
+     
+    .try-header-text {
+        font-size: 3.5rem;
+    }
     .cards {
         display: inline-flex;
         height: 215px;
@@ -414,8 +476,20 @@ body {
         transform: scale(.97);
     }
 
-    .try-header-text {
-        font-size: 3.5rem;
+    .front-card,
+    .back-card {
+        display: inline-flex;
+        height: 215px;
+        width: 215px;
+        margin: 1px;
+        transform: scale(.97);
+        }
+
+    .fruit-card {
+        display: inline-flex;
+        height: 215px;
+        width: 215px;
+        margin: 1px;
     }
 }
 
