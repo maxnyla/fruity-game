@@ -262,8 +262,8 @@ body {
 .fruit-card {
   /*width: calc(25% - 10px);
   height: calc(33.333% - 10px);*/
-  width: 280px;
-  height: 280px;
+  width: 250px;
+  height: 250px;
   margin: 2px;
   position: relative;
   transform: scale(1);
