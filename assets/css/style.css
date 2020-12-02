@@ -342,7 +342,7 @@ body {
         height: 70px;
         width: 70px;
         margin: 1px;
-        transform: scale(.97);
+        /*transform: scale(.97);*/
     }
 
 
@@ -411,7 +411,7 @@ body {
         height: 110px;
         width: 110px;
         margin: 1px;
-        transform: scale(.97);
+        /*transform: scale(.97);*/
     }
 
 
@@ -447,7 +447,7 @@ body {
         height: 160px;
         width: 160px;
         margin: 1px;
-        transform: scale(.97);
+        /*transform: scale(.97);*/
     }
 
 
@@ -482,8 +482,8 @@ body {
         height: 215px;
         width: 215px;
         margin: 1px;
-        transform: scale(.97);
-        }
+        /*transform: scale(.97);*/
+    }
 
     .fruit-card {
         display: inline-flex;
