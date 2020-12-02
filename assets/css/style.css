@@ -335,7 +335,7 @@ body {
 
 /* settings for mobile up to tablet and small laptop/desktop size*/
 
-@media screen and (max-width: 367px) {
+@media screen and (max-width: 383px) {
     .front-card,
     .back-card {
         display: inline-flex;
@@ -355,7 +355,7 @@ body {
 }
 
 
-@media screen and (max-width: 768px) and (min-width: 367px) {
+@media screen and (max-width: 768px) and (min-width: 384px) {
 	.navbar-menu,
 	.navbar-dark,
 	.navbar-nav,
