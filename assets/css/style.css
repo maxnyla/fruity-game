@@ -184,7 +184,7 @@ li {
 .main-container {
     background-color: #040404;
     /*background-color: #dc40da54;*/
-    min-height: 100vh;
+    /*min-height: 100vh;*/
 }
 
 .try-header-text {
@@ -352,6 +352,48 @@ body {
         width: 70px;
         margin: 1px;
      }
+
+	.navbar-menu,
+	.navbar-dark,
+	.navbar-nav,
+	.nav-link {
+		font-size: .7em;
+		letter-spacing: 0px;
+	}
+
+    .game-title {
+        font-size: 2em;
+    }
+
+    .game-rules-header {
+        font-size: 1.4em;
+        font-weight: 700;
+    }
+
+    .game-rules-text {
+        font-size: 1em;
+        font-weight: 500;
+    }
+
+
+	h1 {
+		font-size: 1.5rem;
+	}
+    
+
+	.social-media i {
+		font-size: 1.1em;
+	}
+
+    .footer-text {
+        font-size: .6em;
+        font-weight:bold;
+    }
+
+     .try-header-text {
+        font-size: 2rem;
+    }
+
 }
 
 
@@ -413,7 +455,6 @@ body {
         margin: 1px;
         /*transform: scale(.97);*/
     }
-
 
      .fruit-card {
         display: inline-flex;
