@@ -211,7 +211,6 @@
     font-weight: 600;
     /* border-style: dashed; */
     background-color: #09d9fb;
-    /* font-size: larger; */
     font-weight: normal;
 }
 
@@ -397,6 +396,17 @@ body {
         font-size: 2rem;
     }
 
+    .reload {
+        font-family: 'Rammetto One', cursive;
+        border-radius: 4em;
+        size: auto;
+        padding: .4em;
+        text-align: center;
+        color: #1d2124;
+        background-color: #09d9fb;
+        font-weight: normal;
+        font-size: small;
+    }
 }
 
 
@@ -465,6 +475,19 @@ body {
         width: 110px;
         margin: 1px;
      }
+
+     
+    .reload {
+        font-family: 'Rammetto One', cursive;
+        border-radius: 4em;
+        size: auto;
+        padding: .6em;
+        text-align: center;
+        color: #1d2124;
+        background-color: #09d9fb;
+        font-weight: normal;
+        font-size: small;
+    }
 }
 
 
