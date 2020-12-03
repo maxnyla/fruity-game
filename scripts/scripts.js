@@ -4,7 +4,19 @@ let cardFlipped = false;
 let blockClick = false;
 let firstCard, secondCard;
 
+// shuffle cards on page load
 
+(function shuffle() {
+
+  cards.forEach(card => {
+    let randomPos = Math.floor(Math.random() * 12);
+    card.style.order = randomPos;  
+  });
+
+})();
+
+
+// flip the cards on click
 
 function flipCard(){
   if (blockClick) return;
@@ -13,7 +25,7 @@ function flipCard(){
   this.classList.add('flip');
   
   if (!cardFlipped) {
-    // first clicked card
+    // the first clicked card
     cardFlipped = true;
     firstCard = this;
   } else {
@@ -22,22 +34,26 @@ function flipCard(){
     secondCard = this;
     
     doCardsMatch();
+}
+}
 
-}
-}
+// check if the cards are the same
 
 function doCardsMatch(){
     //do the two cards match? 
-   if (firstCard.dataset.frame ===
-       secondCard.dataset.frame) {
-      //they match:
+   if (firstCard.dataset.pic ===
+       secondCard.dataset.pic) {
+      //if they match:
        removeCards();
-     //they don't match:
+
+     //if they don't match:
      } else {
        unflipCards();
   }            
 }
 
+
+// function for when cards match (they are removed fron the game)
 
 function removeCards(){
      firstCard.removeEventListener('click, flipCard');
@@ -46,6 +62,8 @@ function removeCards(){
      resetGame();
 }
 
+
+// function for when cards don't match (they are put back into the game: unflipped)
 
 function unflipCards(){
         blockClick = true;
@@ -60,18 +78,13 @@ function unflipCards(){
 }
          
 
+// function for the game board to be reset
+
 function resetGame(){
   [cardFlipped, blockClick] = [false, false];
   [firstCard, secondCard] = [null, null];
 }
 
-
-(function shuffle() {
-  cards.forEach(card => {
-    let randomPos = Math.floor(Math.random() * 12);
-    card.style.order = randomPos;  
-  });
-})();
 
                     
 cards.forEach(card => card.addEventListener('click', flipCard));

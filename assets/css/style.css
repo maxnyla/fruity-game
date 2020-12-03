@@ -33,17 +33,6 @@
 /* Main Body */
 
 
-body {
-    /*background-color:#fd7cd5;*/
-    /*background-color:#eeb6dc;*/
-    /*overflow: hidden;*/
-    /*height: 0;*/
-}
-
-.main-game {
-   
-}
-
 .game-title {
     color: #e1ff08;
     font-size: 3em;
@@ -84,9 +73,6 @@ body {
     background-color: #fd7cd5;
 }
 
-.rules-container {
-    /*background-color: #292f9642;*/
-}
 
 .game-link-text {
     color: white;
@@ -120,16 +106,7 @@ body {
 	left: 0;
 	width: 100%;
 	color: hsla(318, 61%, 43%, 0.918);
-	font-weight: 400;
-	font-size: 1.4em;
-}
-
-.myfooter-game {
-    background-color: black;
-    left: 0;
-	width: 100%;
-	color: hsla(318, 61%, 43%, 0.918);
-	font-weight: 400;
+	font-weight: 500;
 	font-size: 1.4em;
 }
 
@@ -166,6 +143,22 @@ body {
 }
 
 
+.myfooter-game {
+    background-color: black;
+    left: 0;
+	width: 100%;
+	color: hsla(318, 61%, 43%, 0.918);
+	font-weight: 500;
+	font-size: 1.4em;
+}
+
+
+.social-media-game a {
+    color: white;
+    font-weight: 500;
+}
+
+
 
 
 /* GAME PAGE */
@@ -175,15 +168,14 @@ body {
 #list_cards {}
 
 
-li {
+/*li {
   padding: 3px;
   list-style: none;
-}
+}*/
 
 
 .main-container {
     background-color: #040404;
-    /*background-color: #dc40da54;*/
     /*min-height: 100vh;*/
 }
 
@@ -202,8 +194,7 @@ li {
 .game-info-timer-text,
 .game-info-flips-text {
     color: #85bb05;
-    /*color:#ff0f63;*/
-    /*color:cyan;*/
+
     font-family: 'Rammetto One', cursive;
 }
 
@@ -219,43 +210,32 @@ li {
 
 
 
-
-
 /* -----------------------------*/
 
-* {
-  /*padding: 0;
-  margin: 0;
-  box-sizing: border-box;*/
-}
+
 
 body {
   min-height: 100vh;
   /*display: flex;*/
-  /*background: black;*/
 }
 
 .game-body {
     background-color: black;
 }
 
-
 .fruit-game {
   /*width: 900px;
   height: 800px;*/
-  width: 5em;
+  /*width: 5em;*/
   /*height: 5em;*/
   margin: auto;
+  /*margin: 0;*/
+  /*padding: 0;*/
   display: flex;
   flex-wrap: wrap;
   perspective: 1000px;
-
-  padding: 0;
-  margin: 0;
   box-sizing: border-box;
-  display: flex;
   background: black;
-
   /*min-height: 100vh;*/
 }
 
@@ -277,9 +257,16 @@ body {
   transition: transform .2s;
 }
 
+.fruit-card:hover {
+    transform: scale(1);
+    transition: transform .2s ease-in-out;
+}
+
+
 .fruit-card.flip {
   transform: rotateY(180deg);
 }
+
 
 .front-card {
   width: 100%;
@@ -288,10 +275,13 @@ body {
   position: absolute;
   border-radius: 5px;
   background: black;
-  /*background: #ff7cd5;*/
   backface-visibility: hidden;
+  transform: rotateY(180deg);
 }
 
+/*.front-card.flip {
+  transform: rotateY(180deg);
+}*/
 
 .back-card {
   width: 100%;
@@ -300,13 +290,9 @@ body {
   position: absolute;
   border-radius: 5px;
   background: black;
-  /*background: #ff7cd5;*/
   backface-visibility: hidden;
 }
 
-.front-card {
-  transform: rotateY(180deg);
-}
 
 
 /*.cards{
@@ -321,12 +307,6 @@ body {
 
 /*}*/
 
-/*.cards:hover {
-    transform: scale(1);
-    transition: transform .2s ease-in-out;
-}*/
-
-
 
 
 
@@ -336,13 +316,19 @@ body {
 /* settings for mobile up to tablet and small laptop/desktop size*/
 
 @media screen and (max-width: 383px) {
-    .front-card,
-    .back-card {
+    .front-card {
         display: inline-flex;
         height: 70px;
         width: 70px;
         margin: 1px;
         /*transform: scale(.97);*/
+    }
+
+    .back-card {
+        display: inline-flex;
+        height: 70px;
+        width: 70px;
+        margin: 1px;    
     }
 
 
@@ -439,13 +425,13 @@ body {
         font-size: 2rem;
     }
 
-     .cards {
+     /*.cards {
         display: inline-flex;
         height: 110px;
         width: 110px;
         margin: 1px;
         transform: scale(.97);
-    }
+    }*/
 
      .front-card,
      .back-card {
@@ -474,13 +460,14 @@ body {
         font-size: 3rem;
     }
 
-    .cards {
+    /*.cards {
         display: inline-flex;
         height: 160px;
         width: 160px;
         margin: 1px;
         transform: scale(.97);
-    }
+    }*/
+
 
     .front-card,
     .back-card {
@@ -509,13 +496,14 @@ body {
     .try-header-text {
         font-size: 3.5rem;
     }
-    .cards {
+
+    /*.cards {
         display: inline-flex;
         height: 215px;
         width: 215px;
         margin: 1px;
         transform: scale(.97);
-    }
+    }*/
 
     .front-card,
     .back-card {
