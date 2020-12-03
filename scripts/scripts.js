@@ -37,10 +37,11 @@ function flipCard(){
 }
 }
 
-// check if the cards are the same
+// check if the cards match
 
 function doCardsMatch(){
-    //do the two cards match? 
+    //is the first card the same as the second card? 
+
    if (firstCard.dataset.pic ===
        secondCard.dataset.pic) {
       //if they match:
@@ -85,6 +86,12 @@ function resetGame(){
   [firstCard, secondCard] = [null, null];
 }
 
+
+//button to refresh the screen/ reload the game 
+
+function reloadGame(){
+    window.location.reload();
+} 
 
                     
 cards.forEach(card => card.addEventListener('click', flipCard));

@@ -198,6 +198,23 @@
     font-family: 'Rammetto One', cursive;
 }
 
+.reload {
+    /*color: #85bb05;*/
+    font-family: 'Rammetto One', cursive;
+    border-radius: 4em;
+    size: auto;
+    /* border-width: medium; */
+    border-radius: 7em;
+    padding: .8em;
+    text-align: center;
+    color: #1d2124;
+    font-weight: 600;
+    /* border-style: dashed; */
+    background-color: #09d9fb;
+    /* font-size: larger; */
+    font-weight: normal;
+}
+
 
 .game-info {}
 
