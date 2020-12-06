@@ -7,9 +7,10 @@
 }
 
 .logo {
-	/*width: ;
-	height: ;*/
+    width: 8em;
+    height: auto;
 }
+
 
 .navbar-menu {
 	font-size: .8em;
@@ -41,7 +42,6 @@
 
 .game-rules-header {
     color: aqua;
-    /*color: #e1ff08;*/
 }
 
 
@@ -141,10 +141,8 @@
 
 .social-media-game a {
     color: #75d81a;
-    /*color: white;*/
     font-weight: 500;
 }
-
 
 
 /* GAME PAGE */
@@ -152,7 +150,6 @@
 #congrats {
     display: none;
 }
-
 
 .main-container {
     background-color: #040404;
@@ -165,7 +162,6 @@
 
 .congrats-text {
     color: white;
-    /*color: #75d81a;*/
     font-family: 'Bungee Inline', cursive;
 }
 
@@ -174,16 +170,11 @@
     font-family: 'Rammetto One', cursive;
     size: auto;
     border-radius: 7em;
-    /*border-radius: 4em;*/
     padding: 1em;
-    /*padding: .8em;*/
     text-align: center;
     background-color: #47234a42;
-    /*background-color: #09d9fb;*/
     color: #f70b79;
-    /*color: #c858e4;*/
     font-weight: normal;
-    /*font-weight: 800;*/
     border-style: dashed; 
 }
 
@@ -200,11 +191,7 @@ body {
 }
 
 .fruit-game {
-  /*width: 5em;*/
-  /*height: 5em;*/
   margin: auto;
-  /*margin: 0;*/
-  /*padding: 0;*/
   display: flex;
   flex-wrap: wrap;
   perspective: 1000px;
@@ -229,8 +216,8 @@ body {
 }
 
 .fruit-card:hover {
-    transform: scale(1);
-    transition: transform .2s ease-in-out;
+   transform: scale(1);
+   transition: transform .2s ease-in-out;
 }
 
 
@@ -250,9 +237,6 @@ body {
   transform: rotateY(180deg);
 }
 
-/*.front-card.flip {
-  transform: rotateY(180deg);
-}*/
 
 .back-card {
   width: 100%;
@@ -263,22 +247,6 @@ body {
   background: black;
   backface-visibility: hidden;
 }
-
-
-
-/*.cards{
-  display: inline-flex;
-  height: 240px;
-  width: 240px;
-  margin: 1px;
-  transform: scale(.97);
-  
-  /*transform-style: preserve-3d;
-  transition: transform .5s;*/
-
-/*}*/
-
-
 
 
 /* /* /* /* /* /* /* /* MEDIA QUERIES /* /* /* /* /* /* /* /* 
@@ -292,7 +260,6 @@ body {
         height: 70px;
         width: 70px;
         margin: 1px;
-        /*transform: scale(.97);*/
     }
 
     .back-card {
@@ -317,6 +284,11 @@ body {
 		font-size: .7em;
 		letter-spacing: 0px;
 	}
+
+    .logo {
+        width: 5em;
+        height: auto;
+    }
 
     .game-title {
         font-size: 2em;
@@ -375,6 +347,11 @@ body {
 		letter-spacing: 0px;
 	}
 
+    .logo {
+        width: 6em;
+        height: auto;
+    }
+
     .game-title {
         font-size: 2em;
     }
@@ -409,21 +386,12 @@ body {
         font-size: 2rem;
     }
 
-     /*.cards {
-        display: inline-flex;
-        height: 110px;
-        width: 110px;
-        margin: 1px;
-        transform: scale(.97);
-    }*/
-
      .front-card,
      .back-card {
         display: inline-flex;
         height: 110px;
         width: 110px;
         margin: 1px;
-        /*transform: scale(.97);*/
     }
 
      .fruit-card {
@@ -449,23 +417,17 @@ body {
 
 
 
-
-
-
 @media only screen and (max-width: 992px) and (min-width: 768px) {
-     .try-header-text,
-     .congrats-text {
+    
+    .logo {
+        width: 7em;
+        height: auto;
+    }
+    
+    .try-header-text,
+    .congrats-text {
         font-size: 3rem;
     }
-
-    /*.cards {
-        display: inline-flex;
-        height: 160px;
-        width: 160px;
-        margin: 1px;
-        transform: scale(.97);
-    }*/
-
 
     .front-card,
     .back-card {
@@ -473,7 +435,6 @@ body {
         height: 160px;
         width: 160px;
         margin: 1px;
-        /*transform: scale(.97);*/
     }
 
 
@@ -496,13 +457,6 @@ body {
         font-size: 3.5rem;
     }
 
-    /*.cards {
-        display: inline-flex;
-        height: 215px;
-        width: 215px;
-        margin: 1px;
-        transform: scale(.97);
-    }*/
 
     .front-card,
     .back-card {
@@ -510,7 +464,6 @@ body {
         height: 215px;
         width: 215px;
         margin: 1px;
-        /*transform: scale(.97);*/
     }
 
     .fruit-card {
