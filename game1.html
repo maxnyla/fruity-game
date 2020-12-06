@@ -68,7 +68,15 @@
                     </div>
                 
                 <div class="row game-info justify-content-center mb-5">
-                        <div class="col-6 mt-5 game-reload">
+                        <div class="col game-info-timer-text ">
+                            <div class="game-info-timer">
+                                Time: <span id="time-remaining">100</span>
+                            </div>
+                        </div>
+                        <div class="col game-reload">
+                            <!--<div class="game-info-flips">
+                                Flips: <span id="flips">0</span>
+                            </div>-->
                             <button type="button" class="reload mr-5" onclick="reloadGame()">Restart game</button>
                         </div>
                 </div>
@@ -78,83 +86,72 @@
     </div>
 
 <div class="container main-game mb-5">
-    <div class="row">
-        <div id="fruity" class="col fruit-game">
-                <div class="fruit-card" data-pic="blackgrape"> 
-                    <img class="front-card img-fluid" src="assets/img/blackgr.jpg" alt="Black grape">
-                    <img class="back-card img-fluid" src="assets/img/juicy4.png" alt="Back of card">  
-                </div>
-
-                <div class="fruit-card" data-pic="blackgrape"> 
-                    <img class="front-card" src="assets/img/blackgr.jpg" alt="Black grape">
-                    <img class="back-card" src="assets/img/juicy4.png" alt="Back of card">  
-                </div>
-
-                <div class="fruit-card" data-pic="blueberry"> 
-                    <img class="front-card" src="assets/img/blueb.jpg" alt="Blueberry">
-                    <img class="back-card" src="assets/img/juicy4.png" alt="Back of card">  
-                </div>
-
-                <div class="fruit-card" data-pic="blueberry"> 
-                    <img class="front-card" src="assets/img/blueb.jpg" alt="Blueberry">
-                    <img class="back-card" src="assets/img/juicy4.png" alt="Back of card">  
-                </div>
-                
-                <div class="fruit-card" data-pic="grapefruit"> 
-                    <img class="front-card" src="assets/img/grapefr.jpg" alt="Grapefruit">
-                    <img class="back-card" src="assets/img/juicy4.png" alt="Back of card">  
-                </div>
-
-                <div class="fruit-card" data-pic="grapefruit"> 
-                    <img class="front-card" src="assets/img/grapefr.jpg" alt="Grapefruit">
-                    <img class="back-card" src="assets/img/juicy4.png" alt="Back of card">  
-                </div>
-                
-                <div class="fruit-card" data-pic="raspberry"> 
-                    <img class="front-card" src="assets/img/raspb.jpg" alt="Raspberry">
-                    <img class="back-card" src="assets/img/juicy4.png" alt="Back of card">  
-                </div>
-
-                <div class="fruit-card" data-pic="raspberry"> 
-                    <img class="front-card" src="assets/img/raspb.jpg" alt="Raspberry">
-                    <img class="back-card" src="assets/img/juicy4.png" alt="Back of card">  
-                </div>
-
-                <div class="fruit-card" data-pic="redgrape"> 
-                    <img class="front-card" src="assets/img/redgr.jpg" alt="Red grape">
-                    <img class="back-card" src="assets/img/juicy4.png" alt="Back of card">  
-                </div>
-
-                <div class="fruit-card" data-pic="redgrape"> 
-                    <img class="front-card" src="assets/img/redgr.jpg" alt="Red grape">
-                    <img class="back-card" src="assets/img/juicy4.png" alt="Back of card">  
-                </div>
-
-                <div class="fruit-card" data-pic="strawberry"> 
-                    <img class="front-card" src="assets/img/strawb.jpg" alt="Strawberry">
-                    <img class="back-card" src="assets/img/juicy4.png" alt="Back of card">  
-                </div>
-
-                <div class="fruit-card" data-pic="strawberry"> 
-                    <img class="front-card" src="assets/img/strawb.jpg" alt="Strawberry">
-                    <img class="back-card" src="assets/img/juicy4.png" alt="Back of card">  
-                </div>
-        </div>
-    </div>
-
-        <div id="congrats" class="row congrats-header justify-content-center">
-            <div class="col-md-6">
-                <div class="row justify-content-center">
-                    <div class="col mt-5 mb-3">
-                        <h2 class="congrats-text">WELL DONE!  <i class="fas fa-trophy"></i>  You matched all cards</h2>       
-                    </div>
-                </div>
+<div class="row">
+    <div class="col fruit-game">
+            <div class="fruit-card" data-pic="blackgrape"> 
+                <img class="front-card img-fluid" src="assets/img/blackgr.jpg" alt="Black grape">
+                <img class="back-card img-fluid" src="assets/img/juicy4.png" alt="Back of card">  
             </div>
-        </div>
+
+            <div class="fruit-card" data-pic="blackgrape"> 
+                <img class="front-card" src="assets/img/blackgr.jpg" alt="Black grape">
+                <img class="back-card" src="assets/img/juicy4.png" alt="Back of card">  
+            </div>
+
+            <div class="fruit-card" data-pic="blueberry"> 
+                <img class="front-card" src="assets/img/blueb.jpg" alt="Blueberry">
+                <img class="back-card" src="assets/img/juicy4.png" alt="Back of card">  
+            </div>
+
+            <div class="fruit-card" data-pic="blueberry"> 
+                <img class="front-card" src="assets/img/blueb.jpg" alt="Blueberry">
+                <img class="back-card" src="assets/img/juicy4.png" alt="Back of card">  
+            </div>
+            
+            <div class="fruit-card" data-pic="grapefruit"> 
+                <img class="front-card" src="assets/img/grapefr.jpg" alt="Grapefruit">
+                <img class="back-card" src="assets/img/juicy4.png" alt="Back of card">  
+            </div>
+
+            <div class="fruit-card" data-pic="grapefruit"> 
+                <img class="front-card" src="assets/img/grapefr.jpg" alt="Grapefruit">
+                <img class="back-card" src="assets/img/juicy4.png" alt="Back of card">  
+            </div>
+            
+            <div class="fruit-card" data-pic="raspberry"> 
+                <img class="front-card" src="assets/img/raspb.jpg" alt="Raspberry">
+                <img class="back-card" src="assets/img/juicy4.png" alt="Back of card">  
+            </div>
+
+            <div class="fruit-card" data-pic="raspberry"> 
+                <img class="front-card" src="assets/img/raspb.jpg" alt="Raspberry">
+                <img class="back-card" src="assets/img/juicy4.png" alt="Back of card">  
+            </div>
+
+            <div class="fruit-card" data-pic="redgrape"> 
+                <img class="front-card" src="assets/img/redgr.jpg" alt="Red grape">
+                <img class="back-card" src="assets/img/juicy4.png" alt="Back of card">  
+            </div>
+
+            <div class="fruit-card" data-pic="redgrape"> 
+                <img class="front-card" src="assets/img/redgr.jpg" alt="Red grape">
+                <img class="back-card" src="assets/img/juicy4.png" alt="Back of card">  
+            </div>
+
+            <div class="fruit-card" data-pic="strawberry"> 
+                <img class="front-card" src="assets/img/strawb.jpg" alt="Strawberry">
+                <img class="back-card" src="assets/img/juicy4.png" alt="Back of card">  
+            </div>
+
+            <div class="fruit-card" data-pic="strawberry"> 
+                <img class="front-card" src="assets/img/strawb.jpg" alt="Strawberry">
+                <img class="back-card" src="assets/img/juicy4.png" alt="Back of card">  
+            </div>
+
     </div>
 </div>
-
-
+</div>
+</div>
 <!-- Footer -->
 <footer>
     <div class="container footer myfooter-game mb-5 mt-5">

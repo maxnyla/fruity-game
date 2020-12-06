@@ -186,6 +186,13 @@
     /*font-family: 'Monoton', cursive;*/
 }
 
+.congrats-text {
+    color: #85bb05;
+    /*color: #e1ff08;*/
+    font-family: 'Bungee Inline', cursive;
+    /*font-family: 'Monoton', cursive;*/
+}
+
 .shot {
     color: white;
 }
@@ -392,7 +399,8 @@ body {
         font-weight:bold;
     }
 
-     .try-header-text {
+     .try-header-text,
+     .congrats-text {
         font-size: 2rem;
     }
 
@@ -448,7 +456,8 @@ body {
         font-weight:bold;
     }
 
-     .try-header-text {
+     .try-header-text,
+     .congrats-text {
         font-size: 2rem;
     }
 
@@ -496,7 +505,8 @@ body {
 
 
 @media only screen and (max-width: 992px) and (min-width: 768px) {
-     .try-header-text {
+     .try-header-text,
+     .congrats-text {
         font-size: 3rem;
     }
 
@@ -533,7 +543,8 @@ body {
 
 @media only screen and (max-width: 1199px) and (min-width: 993px) {
      
-    .try-header-text {
+    .try-header-text,
+    .congrats-text {
         font-size: 3.5rem;
     }
 
@@ -564,7 +575,8 @@ body {
 
 
 @media only screen and (max-width: 1700px) and (min-width: 1200px) {
-    .try-header-text {
+    .try-header-text,
+    congrats-text {
         font-size: 4rem;
     }
 }
