@@ -50,23 +50,9 @@
     font-size: 1.5em;
 }
 
-.main-photo {
-    /*width: 100%;
-    background: url("../img/juicy4.png") no-repeat center fixed;
-	background-size: contain;
-	display: flex;
-	justify-content: center;
-    min-height: 100vh;*/
-}
 
 .main-photo-container {
-    /*background-color: #fd7cd5;*/
-       /*width: 100%;*/
-    /*background: url("../img/juicy4.png") no-repeat center fixed;*/
-	/*background-size: contain;*/
-	/*display: flex;*/
 	justify-content: center;
-    /*min-height: 100vh;*/
 }
 
 .main-home-container {
@@ -154,92 +140,59 @@
 
 
 .social-media-game a {
-    color: white;
+    color: #75d81a;
+    /*color: white;*/
     font-weight: 500;
 }
 
 
 
-
 /* GAME PAGE */
 
-#back_cards {}
-
-#list_cards {}
-
-
-/*li {
-  padding: 3px;
-  list-style: none;
-}*/
+#congrats {
+    display: none;
+}
 
 
 .main-container {
     background-color: #040404;
-    /*min-height: 100vh;*/
 }
 
 .try-header-text {
     color: #09d9fb;
-    /*color: #233394;*/
     font-family: 'Bungee Inline', cursive;
-    /*font-family: 'Monoton', cursive;*/
 }
 
 .congrats-text {
-    color: #85bb05;
-    /*color: #e1ff08;*/
+    color: white
+    /*color: #75d81a;*/
     font-family: 'Bungee Inline', cursive;
-    /*font-family: 'Monoton', cursive;*/
 }
 
-.shot {
-    color: white;
-}
-
-
-.game-info-timer-text,
-.game-info-flips-text {
-    color: #85bb05;
-
-    font-family: 'Rammetto One', cursive;
-}
 
 .reload {
-    /*color: #85bb05;*/
     font-family: 'Rammetto One', cursive;
-    border-radius: 4em;
     size: auto;
-    /* border-width: medium; */
     border-radius: 7em;
-    padding: .8em;
+    /*border-radius: 4em;*/
+    padding: 1em;
+    /*padding: .8em;*/
     text-align: center;
-    color: #1d2124;
-    font-weight: 600;
-    /* border-style: dashed; */
-    background-color: #09d9fb;
+    background-color: #47234a42;
+    /*background-color: #09d9fb;*/
+    color: #f70b79;
+    /*color: #c858e4;*/
     font-weight: normal;
+    /*font-weight: 800;*/
+    border-style: dashed; 
 }
-
-
-.game-info {}
-
-
-.game-info-timer{}
-
-
-.game-info-flips{}
-
-
 
 
 /* -----------------------------*/
 
 
-
 body {
   min-height: 100vh;
-  /*display: flex;*/
 }
 
 .game-body {
@@ -247,8 +200,6 @@ body {
 }
 
 .fruit-game {
-  /*width: 900px;
-  height: 800px;*/
   /*width: 5em;*/
   /*height: 5em;*/
   margin: auto;
@@ -259,12 +210,9 @@ body {
   perspective: 1000px;
   box-sizing: border-box;
   background: black;
-  /*min-height: 100vh;*/
 }
 
 .fruit-card {
-  /*width: calc(25% - 10px);
-  height: calc(33.333% - 10px);*/
   width: 250px;
   height: 250px;
   margin: 2px;
@@ -410,8 +358,8 @@ body {
         size: auto;
         padding: .4em;
         text-align: center;
-        color: #1d2124;
-        background-color: #09d9fb;
+        background-color: #47234a42;
+        color: #f70b79;
         font-weight: normal;
         font-size: small;
     }
@@ -492,8 +440,8 @@ body {
         size: auto;
         padding: .6em;
         text-align: center;
-        color: #1d2124;
-        background-color: #09d9fb;
+        background-color: #47234a42;
+        color: #f70b79;
         font-weight: normal;
         font-size: small;
     }

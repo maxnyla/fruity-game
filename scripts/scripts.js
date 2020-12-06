@@ -94,13 +94,12 @@ function unflipCards(){
       }, 1000);
 }
 
-function gameWon() {
-    //when all the cards have matched, display message and hide game board (logic from w3schools tutorial)
-  $( "#fruity" ).hide( "slow", function() {
-        $("#congrats").show();
-  });
-};
 
+function gameWon() {
+    //when all the cards have matched, display congratulations message (which was hidden until now) and hide game board (logic from w3schools tutorial)
+  $("#fruity").hide();
+  $("#congrats").show();
+};
 
 
 // function for the game board to be reset
