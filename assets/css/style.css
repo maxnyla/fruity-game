@@ -7,17 +7,17 @@
 }
 
 .logo {
-    width: 8em;
     height: auto;
+    width: 8em;
 }
 
 
 .navbar-menu {
+    color: white;
 	font-size: .8em;
-	color: white;
+    letter-spacing: .1em;
 	list-style-type: none;
 	margin-left: auto;
-	letter-spacing: .1em;
 }
 
 .navbar-dark .navbar-nav .nav-link {
@@ -26,8 +26,8 @@
 
 .navbar-dark .navbar-nav .nav-link:hover {
 	color: hsl(189, 97%, 59%);
+    font-style: italic;
 	text-decoration: none;
-	font-style: italic;
 }
 
 
@@ -36,8 +36,8 @@
 
 .game-title {
     color: #e1ff08;
-    font-size: 3em;
     font-family: 'Monoton', cursive;
+    font-size: 3em;
 }
 
 .game-rules-header {
@@ -63,24 +63,23 @@
 .game-link-text {
     color: white;
     font-size: 3em;
-    font-weight: 10em;  
 }
 
 .game-link-button {
     background-color: cyan;
-    text-decoration: none;
-    text-transform: uppercase;
     border-radius: 7em;
-    padding: 1.4em;
-    text-align: center;
+    border-style: dashed;
     color: #f70b79;
     font-weight: 800;
-    border-style: dashed;
+    padding: 1.4em;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
 }
 
 .game-link-button a {
-    text-decoration: none;
     background-color: transparent;
+    text-decoration: none;
     text-transform: uppercase;
 }
 
@@ -89,11 +88,11 @@
 
 .myfooter-home {
     background-color: white;
+    color: hsla(318, 61%, 43%, 0.918);
 	left: 0;
-	width: 100%;
-	color: hsla(318, 61%, 43%, 0.918);
 	font-weight: 500;
 	font-size: 1.4em;
+	width: 100%;
 }
 
 
@@ -102,7 +101,7 @@
 }
 
 .fa-trophy {
-    color:cyan;
+    color: cyan;
 }
 
 .social-media a {
@@ -131,11 +130,11 @@
 
 .myfooter-game {
     background-color: black;
-    left: 0;
-	width: 100%;
-	color: hsla(318, 61%, 43%, 0.918);
+    color: hsla(318, 61%, 43%, 0.918);
 	font-weight: 500;
 	font-size: 1.4em;
+    left: 0;
+	width: 100%;
 }
 
 
@@ -167,23 +166,22 @@
 
 
 .reload {
-    font-family: 'Rammetto One', cursive;
-    size: auto;
-    border-radius: 7em;
-    padding: 1em;
-    text-align: center;
     background-color: #47234a42;
-    color: #f70b79;
-    font-weight: normal;
+    border-radius: 7em;
     border-style: dashed; 
+    color: #f70b79;
+    font-family: 'Rammetto One', cursive;
+    font-weight: normal;
+    padding: 1em;
+    /*size: auto;*/
+    text-align: center;
 }
-
 
 /* -----------------------------*/
 
 
 body {
-  min-height: 100vh;
+   min-height: 100vh;
 }
 
 .game-body {
@@ -191,23 +189,23 @@ body {
 }
 
 .fruit-game {
-  margin: auto;
-  display: flex;
-  flex-wrap: wrap;
-  perspective: 1000px;
-  box-sizing: border-box;
-  background: black;
+    background: black;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    perspective: 1000px;
 }
 
 .fruit-card {
-  width: 250px;
+  box-shadow: 1px 1px 1px rgba(0,0,0,.3);
   height: 250px;
   margin: 2px;
   position: relative;
   transform: scale(1);
   transform-style: preserve-3d;
   transition: transform .5s;
-  box-shadow: 1px 1px 1px rgba(0,0,0,.3);
+  width: 250px;
 }
 
 .fruit-card:active {
@@ -227,25 +225,25 @@ body {
 
 
 .front-card {
-  width: 100%;
+  backface-visibility: hidden;
+  background: black;
+  border-radius: 5px;
   height: 100%;
   padding: 5px;
   position: absolute;
-  border-radius: 5px;
-  background: black;
-  backface-visibility: hidden;
   transform: rotateY(180deg);
+  width: 100%;
 }
 
 
 .back-card {
-  width: 100%;
+  backface-visibility: hidden;
+  background: black;
+  border-radius: 5px;
   height: 100%;
   padding: 5px;
   position: absolute;
-  border-radius: 5px;
-  background: black;
-  backface-visibility: hidden;
+  width: 100%;
 }
 
 
@@ -258,23 +256,22 @@ body {
     .front-card {
         display: inline-flex;
         height: 70px;
-        width: 70px;
         margin: 1px;
+        width: 70px;
     }
 
     .back-card {
         display: inline-flex;
         height: 70px;
+        margin: 1px;
         width: 70px;
-        margin: 1px;    
     }
-
 
     .fruit-card {
         display: inline-flex;
         height: 70px;
-        width: 70px;
         margin: 1px;
+        width: 70px;
      }
 
 	.navbar-menu,
@@ -282,12 +279,12 @@ body {
 	.navbar-nav,
 	.nav-link {
 		font-size: .7em;
-		letter-spacing: 0px;
+		letter-spacing: 0;
 	}
 
     .logo {
-        width: 5em;
         height: auto;
+        width: 5em;
     }
 
     .game-title {
@@ -325,15 +322,15 @@ body {
     }
 
     .reload {
-        font-family: 'Rammetto One', cursive;
-        border-radius: 4em;
-        size: auto;
-        padding: .4em;
-        text-align: center;
         background-color: #47234a42;
+        border-radius: 4em;
         color: #f70b79;
-        font-weight: normal;
+        font-family: 'Rammetto One', cursive;
         font-size: small;
+        font-weight: normal;
+        padding: .4em;
+        /*size: auto;*/
+        text-align: center;
     }
 }
 
@@ -344,12 +341,12 @@ body {
 	.navbar-nav,
 	.nav-link {
 		font-size: .7em;
-		letter-spacing: 0px;
+		letter-spacing: 0;
 	}
 
     .logo {
-        width: 6em;
         height: auto;
+        width: 6em;
     }
 
     .game-title {
@@ -381,47 +378,46 @@ body {
         font-weight:bold;
     }
 
-     .try-header-text,
-     .congrats-text {
+    .try-header-text,
+    .congrats-text {
         font-size: 2rem;
     }
 
-     .front-card,
-     .back-card {
+    .front-card,
+    .back-card {
         display: inline-flex;
         height: 110px;
-        width: 110px;
         margin: 1px;
+        width: 110px;
     }
 
-     .fruit-card {
+    .fruit-card {
         display: inline-flex;
         height: 110px;
-        width: 110px;
         margin: 1px;
-     }
+        width: 110px;
+    }
 
-     
-    .reload {
-        font-family: 'Rammetto One', cursive;
-        border-radius: 4em;
-        size: auto;
-        padding: .6em;
-        text-align: center;
+   .reload {
         background-color: #47234a42;
+        border-radius: 4em;
         color: #f70b79;
-        font-weight: normal;
+        font-family: 'Rammetto One', cursive;
         font-size: small;
+        font-weight: normal;
+        padding: .6em;
+        /*size: auto;*/
+        text-align: center;
     }
-}
 
+}
 
 
 @media only screen and (max-width: 992px) and (min-width: 768px) {
     
     .logo {
-        width: 7em;
         height: auto;
+        width: 7em;
     }
     
     .try-header-text,
@@ -433,16 +429,16 @@ body {
     .back-card {
         display: inline-flex;
         height: 160px;
-        width: 160px;
         margin: 1px;
+        width: 160px;
     }
 
 
     .fruit-card {
         display: inline-flex;
         height: 160px;
-        width: 160px;
         margin: 1px;
+        width: 160px;
     }
 
 }
@@ -462,15 +458,15 @@ body {
     .back-card {
         display: inline-flex;
         height: 215px;
-        width: 215px;
         margin: 1px;
+        width: 215px;
     }
 
     .fruit-card {
         display: inline-flex;
         height: 215px;
-        width: 215px;
         margin: 1px;
+        width: 215px;
     }
 }
 

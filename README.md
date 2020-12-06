@@ -4,7 +4,7 @@ alt="logo"/>
 </p>
 
 
-![Image containing example of responsiveness within several screens](assets/images/responsive.png)
+![Image containing example of responsiveness within several screens](assets/img/responsive.png)
 
 # Table of Contents :house: <a name="home"></a>
 1. [Introduction](#introduction)
@@ -56,7 +56,19 @@ users can have fun and challenge themselves as well as go through a pleasant vis
 
 ### Site overview <a name="siteoverview"></a>
 
-Below are a series of images showing an overview of the site:
+Below are a series of images taken which show an overview of all the pages on the site and their different stages:
+
+
+![Home Page](assets/site_overview/home.png)
+
+
+![Game page before game starts](assets/site_overview/game1.png)
+
+
+![Game page with all cards matched and game about to be completed](assets/site_overview/game2.png)
+
+
+![Game page once game has been won](assets/site_overview/game3.png)
 
 
 
@@ -83,13 +95,13 @@ Below are a series of images showing an overview of the site:
 
 **Deployment**
 
-This website has been deployed to GitHub Pages as [Fruity Game](https://maxnyla.github.io/game)
+This website has been deployed to GitHub Pages as [Fruity Game](https://maxnyla.github.io/fruity-game)
 
 The process for deployment is documented below:
 
 - Log into [GitHub](https://www.github.com)
 
-- Access the page with the repository for this project (https://maxnyla.github.io/game)
+- Access the page with the repository for this project (https://maxnyla.github.io/fruity-game)
 
 - Click on 'Settings' on the main menu over the file listing
 
@@ -100,7 +112,7 @@ The process for deployment is documented below:
 - This generates a live link for the website, which is now viewable publicly
 
 
-![Deployment](assets/site_overview/deployment.png)
+![Deployment](assets/site_overview/deployed.png)
 
 
 

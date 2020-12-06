@@ -37,7 +37,7 @@ function flipCard(){
 
     //run the function to check
     doCardsMatch();
-}
+  }
 }
 
 
