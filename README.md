@@ -6,6 +6,10 @@ alt="logo"/>
 
 ![Image containing example of responsiveness within several screens](assets/img/responsive.png)
 
+
+![Image containing example of responsiveness within several screens](assets/img/responsive2.png)
+
+
 # Table of Contents :house: <a name="home"></a>
 1. [Introduction](#introduction)
 2. [UX](#ux)
