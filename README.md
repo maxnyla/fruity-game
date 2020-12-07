@@ -42,47 +42,52 @@ over two separate pages. The home page can be a landing page or introduction and
 final destination, which is the game.
 
 **Logo and header**
-The logo is a pinneapple and it also includes the name of the site. I really wanted to have a fresh and vibrant logo
-which is why I chose this design. The header has a contrasting colour in dark pink which I believe goes very well
-with the other colour schemes of the site.
-I tried to pick colours that were included in the main image (which is also the back of all the cards) for an effect of 
-continuity through the site.
-Clicking the logo from the game page takes the user to the home page.
+
+- The logo is a pinneapple and it also includes the name of the site. I really wanted to have a fresh and vibrant logo
+  which is why I chose this design. The header has a contrasting colour in dark pink which I believe goes very well
+  with the other colour schemes of the site.
+
+- I tried to pick colours that were included in the main image (which is also the back of all the cards) for an effect of 
+  continuity through the site.
+  Clicking the logo from the game page takes the user to the home page.
 
 **Navigation**
-The navigation links change colour and font style (to italics) when hovered or clicked, to add an element of dynamism and to 
-highlight what is being selected so that the user is able to double check that they are not making a mistake. The navigation bar collapses
-when the smaller screens are used so that the visible area is less cluttered. It turns into a hamburger navigation bar.
 
-**Home page:**
-The goal of the main page here was to wrap the main element, the game, in a a bit of content which sets the tone and leads the user to the game itself.
-The home page doesn't have a lot in it other than the instructions or rules and some navigation links, as well as a feature image which is supposed
-to be fun, vibrant and visually stimulating.
-In the header we can find the navigation links to go directly to the 'PLAY NOW' button and also another one that goes straight to the 
-game page itself.
+- The navigation links change colour and font style (to italics) when hovered or clicked, to add an element of dynamism and to 
+  highlight what is being selected so that the user is able to double check that they are not making a mistake. The navigation bar collapses
+  when the smaller screens are used so that the visible area is less cluttered. It turns into a hamburger navigation bar.
 
-The font for the main title was chosen specifically because it reminded me of some retro fonts from years ago and I left the footer plain white because there was already a lot of colour on the rest of the page and I felt that this matched the other
-white areas on the home page.
-At the bottom of the page we have a button which will then, if clicked, lead the user to the other page which hosts
-the game itself. I designed the button with the idea that it would draw the eyes to it due to its vibrancy and dotted border.
+**Home page**
 
-**Game page:**
-When the 'PLAY NOW' button is clicked, the second page with the game itself is accessed. In this page we have a very simple layout again with just a header, footer, and the main game 
-in the center. The cards are all presented with their back to the user and this is the same image that we had on the home page. Once each card is clicked, if it matches the second card 
-they will both remain flipped and stay on the board. 
-In order to set a clear difference between the two pages, and because the home page is very colourful and so are the backs of the cards, I decided to make the 
-background of the game page black. I believe that this gives it a bit of character and that it makes the othe colours stand out more, providing contrast.
+- The goal of the main page here was to wrap the main element, the game, in a a bit of content which sets the tone and leads the user to the game itself.
+  The home page doesn't have a lot in it other than the instructions or rules and some navigation links, as well as a feature image which is supposed
+  to be fun, vibrant and visually stimulating.
+  In the header we can find the navigation links to go directly to the 'PLAY NOW' button and also another one that goes straight to the 
+  game page itself.
 
-If the two cards clicked at the time do not match, they will flip back to their original state and disappear from view. The user then has to click another two cards to see if these match 
-and the same sequence is repeated once more. This will carry on until the user matches all the cards (a total of 12 cards, so 6 matches). When the user gets to the last match, they will 
-receive a messsage saying that they have won the game and the game board will disappear from view.
-I thought that it would be nice to do it this way rather than as a message which was superimposed over the board.
+- The font for the main title was chosen specifically because it reminded me of some retro fonts from years ago and I left the footer plain white because there was already a lot of colour on the rest of the page and I felt that this matched the other
+  white areas on the home page.
+- At the bottom of the page we have a button which will then, if clicked, lead the user to the other page which hosts
+  the game itself. I designed the button with the idea that it would draw the eyes to it due to its vibrancy and dotted border.
 
-At the top of the page, in the header, are links to go back to the home page and also a direct shortcut to the rules area
+**Game page**
+
+- When the 'PLAY NOW' button is clicked, the second page with the game itself is accessed. In this page we have a very simple layout again with just a header, footer, and the main game 
+  in the center. The cards are all presented with their back to the user and this is the same image that we had on the home page. Once each card is clicked, if it matches the second card 
+  they will both remain flipped and stay on the board. 
+  In order to set a clear difference between the two pages, and because the home page is very colourful and so are the backs of the cards, I decided to make the 
+  background of the game page black. I believe that this gives it a bit of character and that it makes the othe colours stand out more, providing contrast.
+
+- If the two cards clicked at the time do not match, they will flip back to their original state and disappear from view. The user then has to click another two cards to see if these match 
+  and the same sequence is repeated once more. This will carry on until the user matches all the cards (a total of 12 cards, so 6 matches). When the user gets to the last match, they will 
+  receive a messsage saying that they have won the game and the game board will disappear from view.
+  I thought that it would be nice to do it this way rather than as a message which was superimposed over the board.
+
+- At the top of the page, in the header, are links to go back to the home page and also a direct shortcut to the rules area
 
 **Restart button**-
-I felt that it would be good for the user experience to provide a 'restart'  button which resets the game to the initial stage, so that the user doesn't need to refresh or reload
-the page itself in order to see the new board. This button follows the same styling as the 'PLAY NOW' button which is on the home page with regards to the dotted outline.
+- I felt that it would be good for the user experience to provide a 'restart'  button which resets the game to the initial stage, so that the user doesn't need to refresh or reload
+  the page itself in order to see the new board. This button follows the same styling as the 'PLAY NOW' button which is on the home page with regards to the dotted outline.
 
 
 
@@ -92,18 +97,20 @@ the page itself in order to see the new board. This button follows the same styl
 
 ## Visual Identity <a name="visualidentity"></a>
 
-I used LogoMakr to design the logo. I wanted to use an image of a fruit but wanted it to be one of the fruits in the main central illustration so I searched 
-for a few different fruits and I felt like this pinneaple could fit the theme very well. I could make it yellow, and match other elements of the site such as the header, etc. I added the name of the game ('Fruity Game')
-in a colour that complements it.
+I used LogoMakr to design the logo. 
 
-For the rest of the site, as always, I like vibrant colours and I felt that they went well with this type of website so I gave it all
-a very fresh, bright, vibrant air.
+- I wanted to use an image of a fruit but wanted it to be one of the fruits in the main central illustration so I searched 
+  for a few different fruits and I felt like this pinneaple could fit the theme very well. I could make it yellow, and match other elements of the site such as the header, etc. I added the name of the game ('Fruity Game')
+  in a colour that complements it.
 
-I did not want to risk over saturation though so I tried to tie the colours together and use the same ones a few times so that there was some continuity around the site and to avoid colour exhaustion.
+- For the rest of the site, as always, I like vibrant colours and I felt that they went well with this type of website so I gave it all
+  a very fresh, bright, vibrant air.
 
-The buttons are very similar in structure although I did tailor them to their specific pages and I also used colour to unify things around the site with the hover behaviour of links. With regards to the navigation links, in addition to the colour I also set these to briefly change to italics for added effect.
+- I did not want to risk over saturation though so I tried to tie the colours together and use the same ones a few times so that there was some continuity around the site and to avoid colour exhaustion.
 
-I also wanted to keep the site's visual identity unified by using mostly the same header and footer for all the pages. The home page and the game page have a different (reversed) colour scheme though due to the fact that the background colours on their main central page areas are so different.
+- The buttons are very similar in structure although I did tailor them to their specific pages and I also used colour to unify things around the site with the hover behaviour of links. With regards to the navigation links, in addition to the colour I also set these to briefly change to italics for added effect.
+
+- I also wanted to keep the site's visual identity unified by using mostly the same header and footer for all the pages. The home page and the game page have a different (reversed) colour scheme though due to the fact that the background colours on their main central page areas are so different.
 
 
 ### Site overview <a name="siteoverview"></a>
