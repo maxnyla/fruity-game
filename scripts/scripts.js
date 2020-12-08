@@ -3,7 +3,6 @@ const cards = document.querySelectorAll('.fruit-card');
 let cardFlipped = false;
 let blockClick = false;
 let firstCard, secondCard;
-//let matchFound = 0;
 var emptyBox = [];
 
 
@@ -52,7 +51,7 @@ function doCardsMatch() {
         emptyBox.push(secondCard.dataset.pic);
 
         //show the real-time addition of matched cards in console
-        console.log(emptyBox);
+        //console.log(emptyBox);
 
         //when the total of matches adds up to 12
         if (emptyBox.length === 12) {
@@ -71,7 +70,7 @@ function doCardsMatch() {
 
 
 
-// function for when two clicked cards match (they are then removed fron the pool of clickable cards)
+// function for when two clicked cards match (they are then removed from the pool of clickable cards)
 
 function removeCards() {
     firstCard.removeEventListener('click', flipCard);
@@ -80,7 +79,7 @@ function removeCards() {
 }
 
 
-// function for when cards don't match (they are put back into the game, ie unflipped) after the set timeout. Logic from freecodecamp tutorial.
+// function for when cards don't match (they are put back into the game, ie unflipped). Logic from freecodecamp tutorial.
 
 function unflipCards() {
     blockClick = true;
@@ -119,7 +118,7 @@ function reloadGame() {
 }
 
 
-//adding click event listener for all card elements to flip
+//adding click event listener for all card elements to flip (For each array system taken from freecodecamp)
 
 cards.forEach(card => card.addEventListener('click', flipCard));
 
