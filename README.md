@@ -53,9 +53,9 @@ final destination, which is the game.
 
 **Navigation**
 
-- The navigation links change colour and font style (to italics) when hovered or clicked, to add an element of dynamism and to 
-  highlight what is being selected so that the user is able to double check that they are not making a mistake. The navigation bar collapses
-  when the smaller screens are used so that the visible area is less cluttered. It turns into a hamburger navigation bar.
+- The navigation links and the one external link change colour and font style (to italics) when hovered or clicked on, to add an element of dynamism and to 
+  highlight what is being selected. This way the user is able to double check that they are not making a mistake before they click. The navigation bar collapses
+  when the smaller screens are used so that the visible area is less cluttered: It turns into a hamburger navigation bar.
 
 **Home page**
 
@@ -222,14 +222,16 @@ Below is a screenshot of the results achieved for each page. Page speed score wa
 
 ![Website Speed Test Results game](assets/img/performance2.png)
 
-
-
-**Demo/Testing**
+**Demo/Manual Testing methodology**
 
 I have deployed the site on a number of occasions throughout the building process, so that I could test it from different devices such as my mobile and tablet and check for responsiveness.
 
-During this testing I realised that I had to make some design changes to areas that I was not satisfied with, and I made a number of changes to the page layouts and the colours and fonts used.
-Also, I made many changes as I went along in order to make it more responsive or easier to navigate.
+During this testing I realised that I had to make some design changes to areas that I was not entirely happy with, and I made a number of changes to the page layouts, the colour schemes and fonts used. 
+I also changed the size of the cards many times until I found a size that I thought worked well for each device scren size. I had originally intended to se a slightly different layout for the main page and footer
+but I didn't like the way it looked so I decided to remove the instagram icon from the footer and leave it with just plain text and a link. 
+The buttons on both pages were also changed a few times as well as the cup icon's location and colour.
+
+Also, I made many changes as I went along in order to make the site more responsive or easier to navigate when I tested the different screen sizes and noticed issues.
 
 The biggest challenge was to decide which functionality I should add to the game. I tried and tested it many times to fet a feel for what the best course of action was with regards to timing of cards,
 and also the behaviour of the cards once they matched or had been clicked. I had to adapt to the mobile screens and change the layout of the tiles in the game board slightly so that 
@@ -240,24 +242,59 @@ at any given point.
 
 During the testing process, I tested the site and game on a number of platforms: 
 
-- on a desktop via Chrome, Edge, Firefox and Opera. I checked different screen sizes and resolutions and also used 
+- on two laptops via Google Chrome, Microsoft Edge, Mozilla Firefox and Opera. I checked different screen sizes and resolutions and also used 
 a simulator
 - on an Android mobile phone
 - on an Android tablet
 
-I asked others to test with Mac devices and the feedback that I received was that the game works well with the Mac ioS but not with the iPhone. 
-After some investigation, I believe that the issue is the way the iPhone handles some of the CSS properties. I found extensive reports of this issue online and the consensus to fix this seems to be that 
-it is necessary to add the -webkit- additions to the transform and perspective properties in the css file. I tried doing this but to date I believe it is still not working correctly on the iPhone.
+Since I do not have access to a Mac I asked others to test with Mac devices and the feedback that I received was that the game works as intended and everything looks good.
 
-- Future deployment ideas:
+**Testing/Building the site**
 
-I had in mind to make a counter which displays how many cards have been flipped, and also a timer that records the time, and perhaps sets a limit to the time that the user 
-has to complete the game. I was unable to do this as I ran out of time but it remains an idea for future development of the game as my skills progress and my speed as a coder as well.
+- Building the game required a lot of testing of the card functions, and correcting the possibility of double clicking cards that had already been matched. A timeout setting was added 
+  to avoid this from happening, and the flip/unflip functions added to the code to achieve this
+
+- I also tried a few different approaches when it came to the final message which is displayed 
+  once the user wins the game, as I had initially set an alert but I did not like the effect of this and preferred a full message instead. 
+  My mentor suggested that it might be a good idea to remove the board fully when this happens, so I found a way to implement this by setting a show/hide function in javascript with a hidden 
+  div in the html game page. The div includes the 'Congratulations' message and will only display once all the cards have been matched at the same time that the initial div with the game disappears from view.
+
+  Initially this hide/show function happened immediately which seemed a bit too fast, and after getting feedback from two people saying that it would be nice if there was a little more time before the cards disappeared,
+  I added a time feature so that the change happens more slowly
+
+- During testing I made sure that the two buttons (on main page and on game page) worked properly, linking to the exact part of the site that they were supposed to.
+  The external link (to instagram) was also tested to make sure it opened in a separate page and that the url was correct
+
+- I also made sure that the favicon displayed properly on both pages when loaded
 
 
 
+### Bugs or Unresolved Issues
+
+During the building and testing of the game, I have encountered issues with some Apple devices. The game works well with th desktop Mac OS but not with the iPhone or iPad. 
+Apple mobile device users (on several different models and versions of iOS and iPhone/iPad) have reported issues with the flipping of the cards and images on the card not displaying properly: 
+It's like it displays a mirror image rather than the front of the card as intended.
+
+After some investigation, I believe that the issue is the way in which the iPhone handles some of the CSS properties. I found extensive reports of this issue online and the consensus to fix this seems to be that 
+it is necessary to add the -webkit- additions to the transform and perspective properties in the css file. I tried doing this, writing the -webkit- property before the general property as well as after it, 
+but to date I believe it is still not working correctly on the iPhone.
 
 
+### Future development:
+
+- Bug fix:
+  The first item on the list for future development would be to fix the Apple mobile device issue so that the game works properly on the iPhone and iPad.
+
+- Counter:
+  I wanted to make a counter which keeps track of and displays how many cards have been flipped so that the user can track their progress.
+
+- Timer:
+  Also, I would like to add a timer that records the time taken to complete the game and perhaps set a limit to the time that the user is given. 
+  There can be different levels of difficulty as well, setting shorter time spans during which the game can be completed before it's reloaded. 
+  I was unable to do the timer feature as I ran out of time but it remains an idea for future development of the game as my skills progress and my speed as a coder as well.
+
+- In-game alerts:
+  Another item that would work is to add in-game alerts which let the user know how much time they have left, or how many card matches they still need to achieve to complete the game. 
 
 
 ## Deployment <a name="deployment"></a>
@@ -290,10 +327,10 @@ The process for deployment is documented below:
 
 ### Code validation <a name="codevalidation"></a>
 
-I ran all my code through the  [W3C Markup Validation Service](https://validator.w3.org), the [CSS Validation Service](https://jigsaw.w3.org/css-validator) and the [Online Javascript Validator](http://beautifytools.com/javascript-validator.php)
+I ran all my code through the  [W3C Markup Validation Service](https://validator.w3.org), the [CSS Validation Service](https://jigsaw.w3.org/css-validator) and the [JSHint Javascript Validator](https://jshint.com/)
 
-This gave me a few errors on the css stylesheet that required making changes to the code. Some of them were related to the colour property as I had used the wrong code and others had to do with properties set in the wrong order (non alphabetical). I also had some 
-superfluous items in the js code and alerts referring to older IE versions.
+This gave me a few errors on the css stylesheet that required making changes to the code. Some of them were related to the colour property as I had used the wrong code and others had to do with properties set in the wrong order (non alphabetical). 
+I received some warnings on the Javascript validator but these were alerts referring to older IE versions and not errors, so I believe they can be ignored. One alert refers to code that was included in the html file.
 
 Links to the results of the last validation completed can be found below:
 
