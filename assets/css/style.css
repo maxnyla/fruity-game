@@ -206,22 +206,27 @@ body {
   transform: scale(1);
   transform-style: preserve-3d;
   transition: transform .5s;
+  -webkit-transform: scale(1);
+  -webkit-transform-style: preserve-3d;
   width: 250px;
 }
 
 .fruit-card:active {
-  transform: scale(0.97);
   transition: transform .2s;
+  transform: scale(0.97);
+  -webkit-transform: scale(0.97);
 }
 
 .fruit-card:hover {
-   transform: scale(1);
-   transition: transform .2s ease-in-out;
+  transition: transform .2s ease-in-out;
+  transform: scale(1);
+ -webkit-transform: scale(1);
 }
 
 
 .fruit-card.flip {
   transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
 }
 
 
@@ -233,6 +238,7 @@ body {
   padding: 5px;
   position: absolute;
   transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
   width: 100%;
 }
 
