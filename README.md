@@ -264,6 +264,22 @@ The process for deployment is documented below:
 
 
 
+### Code validation <a name="codevalidation"></a>
+
+I ran all my code through the  [W3C Markup Validation Service](https://validator.w3.org) and the [CSS Validation Service](https://jigsaw.w3.org/css-validator)
+
+This gave me a few errors on the css stylesheet that required making changes to the code. Some of them were related to the colour property as I had used the wrong code and others had to do with properties set in the wrong order (non alphabetical) 
+I corrected the code so that the validation completed without errors.
+
+Links to the results of the last validation completed can be found below:
+
+[Home page HTML](assets/code_validation/1-index_html_validator.png)
+
+[Game page HTML](assets/code_validation/2-game_html_validator.png)
+
+[CSS](assets/code_validation/3-css_validator.png)
+
+
 
 ## Technologies <a name="technologies"></a>
 

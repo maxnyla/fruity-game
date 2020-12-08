@@ -3,7 +3,7 @@ const cards = document.querySelectorAll('.fruit-card');
 let cardFlipped = false;
 let blockClick = false;
 let firstCard, secondCard;
-let matchFound = 0;
+//let matchFound = 0;
 var emptyBox = [];
 
 
@@ -99,7 +99,7 @@ function gameWon() {
     //when all the cards have matched, display congratulations message (which was hidden until now) and hide game board (logic from w3schools tutorial)
     $("#fruity").hide(700);
     $("#congrats").show();
-};
+}
 
 
 // function for the game board to be reset
