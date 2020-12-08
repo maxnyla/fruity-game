@@ -163,7 +163,7 @@ Below are a series of images taken which show an overview of all the pages on th
 
 Because there are many images in this project, and for the purpose of improving user experience, I have compressed the images using [tinypng.com](https://tinypng.com/) 
 
-As can be seen below, the total reduction in image size on this site has been 53% (7MB).
+As can be seen below, the total reduction in image size on this site has been 78% (7MB).
 
 
 ![tinypng image size saving results](assets/img/compression_result.png)
