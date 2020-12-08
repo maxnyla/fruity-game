@@ -1,154 +1,181 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0 shrink-to-fit=no">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Faster+One&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Rammetto+One&display=swap" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0 shrink-to-fit=no"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Monoton&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Faster+One&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rammetto+One&display=swap"
+      rel="stylesheet"
+    />
 
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
 
-    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
     <title>Fruity game</title>
+  </head>
 
-</head>
-
-<body>
-<!-- Header (Navbar from Bootstrap documentation) -->
-<header>
-    <nav class="navbar navbar-expand-sm navbar-dark bg-custom-pink">
+  <body>
+    <!-- Header (Navbar from Bootstrap documentation) -->
+    <header>
+      <nav class="navbar navbar-expand-sm navbar-dark bg-custom-pink">
         <a class="navbar-brand" href="index.html">
-        <img class="logo" src="assets/img/logo.png" 
-            alt="Fruity game">
+          <img class="logo" src="assets/img/logo.png" alt="Fruity game" />
         </a>
-        <button class="navbar-toggler" 
-            type="button" 
-            data-toggle="collapse" 
-            data-target="#navbarNav"
-            aria-controls="navbarNav" 
-            aria-expanded="false" 
-            aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon">
-        </span>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"> </span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav navbar-menu">
-                <li class="nav-item active">
-                    <h3><a class="nav-link active" href="index.html">Home</a></h3>
-                </li>
-                <li class="nav-item">
-                    <h3><a class="nav-link" href="#rules">Rules</a></h3>
-                </li>
-                <li class="nav-item">
-                    <h3><a class="nav-link" href="#play">Try</a></h3>
-                </li>
-                <li class="nav-item">
-                    <h3><a class="nav-link" href="game.html">The game</a></h3>
-                </li>
-            </ul>
+          <ul class="navbar-nav navbar-menu">
+            <li class="nav-item active">
+              <h3><a class="nav-link active" href="index.html">Home</a></h3>
+            </li>
+            <li class="nav-item">
+              <h3><a class="nav-link" href="#rules">Rules</a></h3>
+            </li>
+            <li class="nav-item">
+              <h3><a class="nav-link" href="#play">Try</a></h3>
+            </li>
+            <li class="nav-item">
+              <h3><a class="nav-link" href="game.html">The game</a></h3>
+            </li>
+          </ul>
         </div>
-    </nav>
-     </header>
-<!-- /.Header -->
+      </nav>
+    </header>
+    <!-- /.Header -->
 
-
-<!-- Main home container -->
-<section class="container-fluid main-home-container">
-
-<!-- Intro -->
-    <div class="container intro">
-                <div class="row justify-content-center">
-                    <div class="col">
-                        <h2 class="game-title mt-5 mb-5">
-                            Fruity memory game
-                        </h2>
-                    </div>
-                </div>
-    </div>
-<!-- /.Intro -->
-
-<!-- Rules -->
-    <div class="container rules-container">
-            <div class="row justify-content-center">
-                    <div class="col-md-12 mb-3">
-                        <h2 id="rules" class="game-rules-header">
-                            The Rules
-                        </h2>
-                    </div>
-            </div>
-            <div class="row justify-content-center">
-                    <div class="col-md-12 game-rules-text">
-                        <p>This is a very simple retro memory game. The aim is to lift two cards at a time, and match them.</p>
-                        <p>To play, just click on two cards and if they match, you have won those. If not, just try again. 
-                        The challenge is to remember the positioning of each card that you don't win so you that can match them when you pick its companion up later on.</p>
-                        <p>Once you have matched all the cards, you have won the game! </p>
-                    </div>
-            </div>            
-    </div>
-<!-- /.Rules -->
-
-<!-- Photo -->
- <br>
-    <div class="container main-photo-container mt-5">
-        <div class="row">
-                    <div class="row main-photo">
-                            <div class="col main-photo"> 
-                                    <img src="assets/img/juicy4.png" class="img-thumbnail"
-                                    alt="Let's get fruity"> 
-                            </div>
-                    </div>         
-        </div>
-    </div>
-<!-- /.Photo -->
-<!-- Link to game -->
-<div class="container">
-    <div class="row game-link-row justify-content-center mt-3">
-        <div class="col-xs-6 game-link-text mt-3">
-                <h1><i class="fas fa-trophy"></i>  Test your memory!
-                </h1>
-        </div>
-    </div>
-    <div class="row game-link-row justify-content-center mt-5">
-        <div class="col-xs-6 game-link mb-5">
-                <a id="play" class="game-link-button game-link" href="game.html"> PLAY NOW
-                </a>
-        </div>
-    </div>
-
-</div>
-<!-- /.Link to game-->
-
-</section>
-
-<!-- Footer -->
-<footer>
-    <div class="container footer myfooter-home mt-5 mb-5">
+    <!-- Main home container -->
+    <section class="container-fluid main-home-container">
+      <!-- Intro -->
+      <div class="container intro">
         <div class="row justify-content-center">
-            <div class="col-8 footer-text social-media">
-              <p>Many thanks to <a href="https://www.instagram.com/danika_draws" target="_blank">Danika draws</a> for the use of her fantastic illustration</p>
-            </div>
+          <div class="col">
+            <h2 class="game-title mt-5 mb-5">Fruity memory game</h2>
+          </div>
         </div>
-    </div>
-</footer>
-<!-- /.Footer -->
+      </div>
+      <!-- /.Intro -->
 
-<!-- Load scripts -->
-<script src="scripts/scripts.js"></script>
-<script src="https://kit.fontawesome.com/dadd5c7e02.js" crossorigin="anonymous"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-<!-- /.Load scripts -->
-</body>
+      <!-- Rules -->
+      <div class="container rules-container">
+        <div class="row justify-content-center">
+          <div class="col-md-12 mb-3">
+            <h2 id="rules" class="game-rules-header">The Rules</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-12 game-rules-text">
+            <p>
+              This is a very simple retro memory game. The aim is to lift two
+              cards at a time, and match them.
+            </p>
+            <p>
+              To play, just click on two cards and if they match, you have won
+              those. If not, just try again. The challenge is to remember the
+              positioning of each card that you don't win so you that can match
+              them when you pick its companion up later on.
+            </p>
+            <p>Once you have matched all the cards, you have won the game!</p>
+          </div>
+        </div>
+      </div>
+      <!-- /.Rules -->
 
+      <!-- Photo -->
+      <br />
+      <div class="container main-photo-container mt-5">
+        <div class="row">
+          <div class="row main-photo">
+            <div class="col main-photo">
+              <img
+                src="assets/img/juicy4.png"
+                class="img-thumbnail"
+                alt="Let's get fruity"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- /.Photo -->
+      <!-- Link to game -->
+      <div class="container">
+        <div class="row game-link-row justify-content-center mt-3">
+          <div class="col-xs-6 game-link-text mt-3">
+            <h1><i class="fas fa-trophy"></i> Test your memory!</h1>
+          </div>
+        </div>
+        <div class="row game-link-row justify-content-center mt-5">
+          <div class="col-xs-6 game-link mb-5">
+            <a id="play" class="game-link-button game-link" href="game.html">
+              PLAY NOW
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- /.Link to game-->
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container footer myfooter-home mt-5 mb-5">
+        <div class="row justify-content-center">
+          <div class="col-8 footer-text social-media">
+            <p>
+              Many thanks to
+              <a href="https://www.instagram.com/danika_draws" target="_blank"
+                >Danika draws</a
+              >
+              for the use of her fantastic illustration
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- /.Footer -->
+
+    <!-- Load scripts -->
+    <script src="scripts/scripts.js"></script>
+    <script
+      src="https://kit.fontawesome.com/dadd5c7e02.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- /.Load scripts -->
+  </body>
 </html>
