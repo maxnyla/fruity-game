@@ -41,7 +41,7 @@ that it would make sense and improve the experience if I padded this out with so
 over two separate pages. The home page can be a landing page or introduction and then the game page has the
 final destination, which is the game.
 
-**Logo and header**
+ **Logo and header**
 
 - The logo is a pinneapple and it also includes the name of the site. I really wanted to have a fresh and vibrant logo
   which is why I chose this design. The header has a contrasting colour in dark pink which I believe goes very well
@@ -51,13 +51,13 @@ final destination, which is the game.
   continuity through the site.
   Clicking the logo from the game page takes the user to the home page.
 
-**Navigation**
+ **Navigation**
 
 - The navigation links and the one external link change colour and font style (to italics) when hovered or clicked on, to add an element of dynamism and to 
   highlight what is being selected. This way the user is able to double check that they are not making a mistake before they click. The navigation bar collapses
   when the smaller screens are used so that the visible area is less cluttered: It turns into a hamburger navigation bar.
 
-**Home page**
+ **Home page**
 
 - The goal of the main page here was to wrap the main element, the game, in a a bit of content which sets the tone and leads the user to the game itself.
   The home page doesn't have a lot in it other than the instructions or rules and some navigation links, as well as a feature image which is supposed
@@ -70,7 +70,7 @@ final destination, which is the game.
 - At the bottom of the page we have a button which will then, if clicked, lead the user to the other page which hosts
   the game itself. I designed the button with the idea that it would draw the eyes to it due to its vibrancy and dotted border.
 
-**Game page**
+ **Game page**
 
 - When the 'PLAY NOW' button is clicked, the second page with the game itself is accessed. In this page we have a very simple layout again with just a header, footer, and the main game 
   in the center. The cards are all presented with their back to the user and this is the same image that we had on the home page. Once each card is clicked, if it matches the second card 
@@ -83,9 +83,10 @@ final destination, which is the game.
   receive a messsage saying that they have won the game and the game board will disappear from view.
   I thought that it would be nice to do it this way rather than as a message which was superimposed over the board.
 
-- At the top of the page, in the header, are links to go back to the home page and also a direct shortcut to the rules area
+- At the top of the page, in the header, are links to go back to the home page and also a direct shortcut to the rules area. It may seem superfluous to have 
+  all these links, but I thought that since they point to different areas they were a good idea.
 
-**Restart button**
+ **Restart button**
 
 - I felt that it would be good for the user experience to provide a 'restart'  button which resets the game to the initial stage, so that the user doesn't need to refresh or reload
   the page itself in order to see the new board. This button follows the same styling as the 'PLAY NOW' button which is on the home page with regards to the dotted outline.
@@ -94,7 +95,7 @@ final destination, which is the game.
 
 ## Wireframes <a name="wireframes"></a>
 
-All the wireframes were created with [Microsoft Paint](https://jspaint.app/)
+All the wireframes were created with [Microsoft Paint](https://jspaint.app/).
 
 I created two wireframes for each page: one home page for the mobile view and another for the desktop view, and the same for the game page. 
 In addition to this, I created an extra wireframe for the game page after the user receives the messsage letting them know that they have won the game, since there is 
@@ -116,6 +117,9 @@ a substantial change to the page design at that point. Again, this wireframe was
 [Game finished page wireframe web](https://github.com/maxnyla/fruity-game/tree/master/assets/wireframes/5-game_done_web.png)
 
 [Game finished page wireframe mobile](https://github.com/maxnyla/fruity-game/tree/master/assets/wireframes/6-game_done_mob.png)
+
+
+:house:[ Back to Table of Contents](#home)
 
 
 ## Visual Identity <a name="visualidentity"></a>
@@ -177,39 +181,41 @@ The different goals and aims of the game, when viewed from a user perspective or
 
 **Users:**
 
-- Users want to have a clear site that they can easily navigate, which is uncluttered and therefore does not have unnecessary elements 
+- Users want to have a clear site that they can easily navigate, which is uncluttered and therefore does not have unnecessary elements.
 
-- Users just want clear instructions presented in an easy to see manner 
+- Users just want clear instructions presented in an easy to see manner.
 
-- Users want to have a very quick overview of the site and how it works as soon as they land on the home page
+- Users want to have a very quick overview of the site and how it works as soon as they land on the home page.
 
-- Users want to be able to easily navigate to the main (game) element of the site 
+- Users want to be able to easily navigate to the main (game) element of the site. 
 
-- Users want a responsive, fun and visually appealling game
+- Users want a responsive, fun and visually appealling game.
 
-- Users want the game to be intuitive and therefore have the correct functionality to avoid clicking cards that cannot be clicked, or too many at the time, etc
+- Users want the game to be intuitive and therefore have the correct functionality to avoid clicking cards that cannot be clicked, or too many at the time, etc.
 
-- Users want a clear message stating that they have finished the game
+- Users want a clear message stating that they have finished the game.
 
-- Users want a clear indication of where or how they can start the game again if they wish to do so
+- Users want a clear indication of where or how they can start the game again if they wish to do so.
 
 
 **Site owner:**
 
-- The site owner's main goal is that the user has a great experience and has fun
+- The site owner's main goal is that the user has a great experience and has fun.
 
-- The site owner wants the navigation through the site to be clear and easy
+- The site owner wants the navigation through the site to be clear and easy.
 
-- The site owner wants the game and the site to be intuitive so instructions can be kept to a bare minimum
+- The site owner wants the game and the site to be intuitive so instructions can be kept to a bare minimum.
 
-- The site owner wants all the necessary information for the user to complete the game to be readily accessible and easy to understand
+- The site owner wants all the necessary information for the user to complete the game to be readily accessible and easy to understand.
 
-- The site owner wants the visuals of the game to be appealling and for the colours and design of the site to draw the user in
+- The site owner wants the visuals of the game to be appealling and for the colours and design of the site to draw the user in.
 
-- The site owner wants the user to have a clear message once the game is finished
+- The site owner wants the user to have a clear message once the game is finished.
 
-- The site owner wants to make it straightforward for the user to restart the game when desired
+- The site owner wants to make it straightforward for the user to restart the game when desired.
 
+
+:house:[ Back to Table of Contents](#home)
 
 
 ## Testing <a name="testing"></a>
@@ -243,16 +249,16 @@ at any given point.
 During the testing process, I tested the site and game on a number of platforms: 
 
 - on two laptops via Google Chrome, Microsoft Edge, Mozilla Firefox and Opera. I checked different screen sizes and resolutions and also used 
-a simulator
-- on an Android mobile phone
-- on an Android tablet
+  a simulator.
+- on an Android mobile phone.
+- on an Android tablet.
 
 Since I do not have access to a Mac I asked others to test with Mac devices and the feedback that I received was that the game works as intended and everything looks good.
 
 **Testing/Building the site**
 
 - Building the game required a lot of testing of the card functions, and correcting the possibility of double clicking cards that had already been matched. A timeout setting was added 
-  to avoid this from happening, and the flip/unflip functions added to the code to achieve this
+  to avoid this from happening, and the flip/unflip functions added to the code to achieve this.
 
 - I also tried a few different approaches when it came to the final message which is displayed 
   once the user wins the game, as I had initially set an alert but I did not like the effect of this and preferred a full message instead. 
@@ -260,12 +266,12 @@ Since I do not have access to a Mac I asked others to test with Mac devices and 
   div in the html game page. The div includes the 'Congratulations' message and will only display once all the cards have been matched at the same time that the initial div with the game disappears from view.
 
   Initially this hide/show function happened immediately which seemed a bit too fast, and after getting feedback from two people saying that it would be nice if there was a little more time before the cards disappeared,
-  I added a time feature so that the change happens more slowly
+  I added a time feature so that the change happens more slowly.
 
 - During testing I made sure that the two buttons (on main page and on game page) worked properly, linking to the exact part of the site that they were supposed to.
-  The external link (to instagram) was also tested to make sure it opened in a separate page and that the url was correct
+  The external link (to instagram) was also tested to make sure it opened in a separate page and that the url was correct.
 
-- I also made sure that the favicon displayed properly on both pages when loaded
+- I also made sure that the favicon displayed properly on both pages when loaded.
 
 
 
@@ -273,7 +279,7 @@ Since I do not have access to a Mac I asked others to test with Mac devices and 
 
 During the building and testing of the game, I have encountered issues with some Apple devices. The game works well with th desktop Mac OS but not with the iPhone or iPad. 
 Apple mobile device users (on several different models and versions of iOS and iPhone/iPad) have reported issues with the flipping of the cards and images on the card not displaying properly: 
-It's like it displays a mirror image rather than the front of the card as intended.
+It's as if it displays a mirror image rather than the back of the card as intended.
 
 After some investigation, I believe that the issue is the way in which the iPhone handles some of the CSS properties. I found extensive reports of this issue online and the consensus to fix this seems to be that 
 it is necessary to add the -webkit- additions to the transform and perspective properties in the css file. I tried doing this, writing the -webkit- property before the general property as well as after it, 
@@ -297,11 +303,14 @@ but to date I believe it is still not working correctly on the iPhone.
   Another item that would work is to add in-game alerts which let the user know how much time they have left, or how many card matches they still need to achieve to complete the game. 
 
 
+:house:[ Back to Table of Contents](#home)
+
+
 ## Deployment <a name="deployment"></a>
 
 **Deployment**
 
-This website has been deployed to GitHub Pages as [Fruity Game](https://maxnyla.github.io/fruity-game)
+This website has been deployed to GitHub Pages as [Fruity Game](https://maxnyla.github.io/fruity-game).
 
 It was deployed ahead of time and modified on a number of occasions so that I would be able to check how things worked on different devices, and to ask others to test it themselves. 
 
@@ -341,6 +350,9 @@ Links to the results of the last validation completed can be found below:
 [CSS](assets/code_validation/3-css_validator.png)
 
 [JS](assets/code_validation/4-js_validator.png)
+
+
+:house:[ Back to Table of Contents](#home)
 
 
 ## Technologies <a name="technologies"></a>
@@ -385,7 +397,7 @@ For this project I have used the below technologies:
 I have also used the Chrome Developer Tools extensively throughout the project. They have been very useful for each change that I made, and to double-check my ideas before implementing them. 
 I have used the javascript console logging utility to check code before saving it and to troubleshoot.
 
-
+:house:[ Back to Table of Contents](#home)
 
 
 ## Media <a name="media"></a>
@@ -408,8 +420,8 @@ I have taken advantage of several useful resources for images and my logo. Pleas
     for the thumbnail icon on the internet tab header
 
 - [Danika Draws](https://www.instagram.com/danika_draws)
-    My friend Danika allowed me to use her illustration as the image on the back of the cards and also as 
-    feature on the main page since I found that it was a perfect fit for my project
+    My friend Danika allowed me to use her illustration as the image on the back of the cards and also as feature on the main page since I found that it 
+    was a perfect fit for my project
 
 
 ## Acknowledgements and thanks <a name="acknowledgements"></a>
