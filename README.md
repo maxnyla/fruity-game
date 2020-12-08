@@ -228,9 +228,33 @@ Below is a screenshot of the results achieved for each page. Page speed score wa
 
 I have deployed the site on a number of occasions throughout the building process, so that I could test it from different devices such as my mobile and tablet and check for responsiveness.
 
-During this testing I realised that I had to make some design changes to areas that I was not satisfied with, as the viewing experience on the mobile devices was not great.
-I have therefore made many changes as I went along in order to make it more responsive or easier to navigate.
-Some of these changes are broken down below:
+During this testing I realised that I had to make some design changes to areas that I was not satisfied with, and I made a number of changes to the page layouts and the colours and fonts used.
+Also, I made many changes as I went along in order to make it more responsive or easier to navigate.
+
+The biggest challenge was to decide which functionality I should add to the game. I tried and tested it many times to fet a feel for what the best course of action was with regards to timing of cards,
+and also the behaviour of the cards once they matched or had been clicked. I had to adapt to the mobile screens and change the layout of the tiles in the game board slightly so that 
+the cards were still visible and the game was easy to play on those devices as well.
+
+I made changes to the colour scheme a few times because I was not happy with what I had at the time, and I wanted to differentiate the two pages visually so it was clear to the user which page they were in
+at any given point. 
+
+During the testing process, I tested the site and game on a number of platforms: 
+
+- on a desktop via Chrome, Edge, Firefox and Opera. I checked different screen sizes and resolutions and also used 
+a simulator
+- on an Android mobile phone
+- on an Android tablet
+
+I asked others to test with Mac devices and the feedback that I received was that the game works well with the Mac ioS but not with the iPhone. 
+After some investigation, I believe that the issue is the way the iPhone handles some of the CSS properties. I found extensive reports of this issue online and the consensus to fix this seems to be that 
+it is necessary to add the -webkit- additions to the transform and perspective properties in the css file. I tried doing this but to date I believe it is still not working correctly on the iPhone.
+
+- Future deployment ideas:
+
+I had in mind to make a counter which displays how many cards have been flipped, and also a timer that records the time, and perhaps sets a limit to the time that the user 
+has to complete the game. I was unable to do this as I ran out of time but it remains an idea for future development of the game as my skills progress and my speed as a coder as well.
+
+
 
 
 
@@ -266,10 +290,10 @@ The process for deployment is documented below:
 
 ### Code validation <a name="codevalidation"></a>
 
-I ran all my code through the  [W3C Markup Validation Service](https://validator.w3.org) and the [CSS Validation Service](https://jigsaw.w3.org/css-validator)
+I ran all my code through the  [W3C Markup Validation Service](https://validator.w3.org), the [CSS Validation Service](https://jigsaw.w3.org/css-validator) and the [Online Javascript Validator](http://beautifytools.com/javascript-validator.php)
 
-This gave me a few errors on the css stylesheet that required making changes to the code. Some of them were related to the colour property as I had used the wrong code and others had to do with properties set in the wrong order (non alphabetical) 
-I corrected the code so that the validation completed without errors.
+This gave me a few errors on the css stylesheet that required making changes to the code. Some of them were related to the colour property as I had used the wrong code and others had to do with properties set in the wrong order (non alphabetical). I also had some 
+superfluous items in the js code and alerts referring to older IE versions.
 
 Links to the results of the last validation completed can be found below:
 
@@ -279,6 +303,7 @@ Links to the results of the last validation completed can be found below:
 
 [CSS](assets/code_validation/3-css_validator.png)
 
+[JS](assets/code_validation/4-js_validator.png)
 
 
 ## Technologies <a name="technologies"></a>
