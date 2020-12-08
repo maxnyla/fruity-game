@@ -91,7 +91,31 @@ final destination, which is the game.
 
 
 
-## Wireframe <a name="wireframe"></a>
+## Wireframes <a name="wireframes"></a>
+
+All the wireframes were created with [Microsoft Paint](https://jspaint.app/)
+
+I created two wireframes for each page: one home page for the mobile view and another for the desktop view, and the same for the game page. 
+In addition to this, I created an extra wireframe for the game page after the user receives the messsage letting them know that they have won the game, since there is 
+a substantial change to the page design at that point. Again, this wireframe was made for mobile view and desktop view. 
+
+* The wireframes can be found here:
+
+[wireframes for MS2 Fruity Game](https://github.com/maxnyla/fruity-game/tree/master/assets/wireframes)
+
+
+
+![Home Page wireframe web](assets/wireframes/1-home_web.png)
+
+![Home Page wireframe web](assets/wireframes/2-home_mob.png)
+
+![Home Page wireframe web](assets/wireframes/3-game_web.png)
+
+![Home Page wireframe web](assets/wireframes/4-game_mob.png)
+
+![Home Page wireframe web](assets/wireframes/5-game_done_web.png)
+
+![Home Page wireframe web](assets/wireframes/6-game_done_mob.png)
 
 
 

@@ -89,9 +89,9 @@
 .myfooter-home {
     background-color: white;
     color: hsla(318, 61%, 43%, 0.918);
-	left: 0;
-	font-weight: 500;
 	font-size: 1.4em;
+	font-weight: 500;
+    left: 0;
 	width: 100%;
 }
 
@@ -131,8 +131,8 @@
 .myfooter-game {
     background-color: black;
     color: hsla(318, 61%, 43%, 0.918);
-	font-weight: 500;
 	font-size: 1.4em;
+	font-weight: 500;
     left: 0;
 	width: 100%;
 }
@@ -212,15 +212,16 @@ body {
 }
 
 .fruit-card:active {
+  transform: scale(0.97);
   transition: transform .2s;
   -webkit-transform: scale(0.97);
-  transform: scale(0.97);
+
 }
 
 .fruit-card:hover {
+  transform: scale(1);
   transition: transform .2s ease-in-out;
   -webkit-transform: scale(1);
-  transform: scale(1);
 }
 
 
