@@ -97,7 +97,7 @@ function unflipCards(){
 
 function gameWon() {
     //when all the cards have matched, display congratulations message (which was hidden until now) and hide game board (logic from w3schools tutorial)
-  $("#fruity").hide();
+  $("#fruity").hide(700);
   $("#congrats").show();
 };
 
