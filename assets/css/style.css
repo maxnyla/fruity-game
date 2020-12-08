@@ -203,30 +203,31 @@ body {
   height: 250px;
   margin: 2px;
   position: relative;
+  -webkit-transform: scale(1);
+  -webkit-transform-style: preserve-3d;
   transform: scale(1);
   transform-style: preserve-3d;
   transition: transform .5s;
-  -webkit-transform: scale(1);
-  -webkit-transform-style: preserve-3d;
   width: 250px;
 }
 
 .fruit-card:active {
   transition: transform .2s;
-  transform: scale(0.97);
   -webkit-transform: scale(0.97);
+  transform: scale(0.97);
 }
 
 .fruit-card:hover {
   transition: transform .2s ease-in-out;
+  -webkit-transform: scale(1);
   transform: scale(1);
- -webkit-transform: scale(1);
 }
 
 
 .fruit-card.flip {
+ -webkit-transform: rotateY(180deg);
   transform: rotateY(180deg);
-  -webkit-transform: rotateY(180deg);
+ 
 }
 
 
@@ -237,8 +238,8 @@ body {
   height: 100%;
   padding: 5px;
   position: absolute;
-  transform: rotateY(180deg);
   -webkit-transform: rotateY(180deg);
+  transform: rotateY(180deg);
   width: 100%;
 }
 
