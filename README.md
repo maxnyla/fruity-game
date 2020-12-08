@@ -39,7 +39,7 @@ challenged by playing the card matching game. I also wanted to make the whole ex
 When it comes to the structure of the site, I really didn't want to have just one page with the game on its own, but felt 
 that it would make sense and improve the experience if I padded this out with some more content and spread it 
 over two separate pages. The home page can be a landing page or introduction and then the game page has the
-final destination, which is the game.
+final destination, which is the game itself.
 
  **Logo and header**
 
@@ -49,26 +49,30 @@ final destination, which is the game.
 
 - I tried to pick colours that were included in the main image (which is also the back of all the cards) for an effect of 
   continuity through the site.
-  Clicking the logo from the game page takes the user to the home page.
+
 
  **Navigation**
 
 - The navigation links and the one external link change colour and font style (to italics) when hovered or clicked on, to add an element of dynamism and to 
   highlight what is being selected. This way the user is able to double check that they are not making a mistake before they click. The navigation bar collapses
   when the smaller screens are used so that the visible area is less cluttered: It turns into a hamburger navigation bar.
+  Clicking the logo from the game page takes the user to the home page again.
+
 
  **Home page**
 
 - The goal of the main page here was to wrap the main element, the game, in a a bit of content which sets the tone and leads the user to the game itself.
   The home page doesn't have a lot in it other than the instructions or rules and some navigation links, as well as a feature image which is supposed
   to be fun, vibrant and visually stimulating.
-  In the header we can find the navigation links to go directly to the 'PLAY NOW' button and also another one that goes straight to the 
+  In the header we can find the navigation links to go straight to the 'PLAY NOW' button and also another one that goes straight to the 
   game page itself.
 
 - The font for the main title was chosen specifically because it reminded me of some retro fonts from years ago and I left the footer plain white because there was already a lot of colour on the rest of the page and I felt that this matched the other
   white areas on the home page.
+
 - At the bottom of the page we have a button which will then, if clicked, lead the user to the other page which hosts
   the game itself. I designed the button with the idea that it would draw the eyes to it due to its vibrancy and dotted border.
+
 
  **Game page**
 
@@ -317,17 +321,17 @@ It was deployed ahead of time and modified on a number of occasions so that I wo
 
 The process for deployment is documented below:
 
-- Log into [GitHub](https://www.github.com)
+- Log into [GitHub](https://www.github.com).
 
-- Access the page with the repository for this project (https://maxnyla.github.io/fruity-game)
+- Access the page with the repository for this project (https://maxnyla.github.io/fruity-game).
 
-- Click on 'Settings' on the main menu over the file listing
+- Click on 'Settings' on the main menu over the file listing.
 
-- Navigate down to 'GitHub Pages'
+- Navigate down to 'GitHub Pages'.
 
-- Select 'Branch: Master' from the menu
+- Select 'Branch: Master' from the menu.
 
-- This generates a live link for the website, which is now viewable publicly
+- This generates a live link for the website, which is now viewable publicly.
 
 
 ![Deployment](assets/site_overview/deployed.png)
