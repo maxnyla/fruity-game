@@ -3,7 +3,7 @@
 /* Navigation */
 
 .bg-custom-pink {
-	background-color: hsla(318, 61%, 43%, 0.918);
+    background-color: rgba(177, 43, 136, 0.92);
 }
 
 .logo {
@@ -25,7 +25,7 @@
 }
 
 .navbar-dark .navbar-nav .nav-link:hover {
-	color: hsl(189, 97%, 59%);
+    color: rgb(49, 221, 252);
     font-style: italic;
 	text-decoration: none;
 }
@@ -88,7 +88,7 @@
 
 .myfooter-home {
     background-color: white;
-    color: hsla(318, 61%, 43%, 0.918);
+    color: rgba(177, 43, 136, 0.92);
 	font-size: 1.4em;
 	font-weight: 500;
     left: 0;
@@ -111,7 +111,7 @@
 
 
 .social-media i {
-	color: hsla(318, 61%, 43%, 0.918);
+    color: rgba(177, 43, 136, 0.92);
 	font-size: 1em;
 	margin: .4em;
 	padding: .4em;
@@ -130,7 +130,7 @@
 
 .myfooter-game {
     background-color: black;
-    color: hsla(318, 61%, 43%, 0.918);
+    color: rgba(177, 43, 136, 0.92);
 	font-size: 1.4em;
 	font-weight: 500;
     left: 0;
@@ -173,7 +173,6 @@
     font-family: 'Rammetto One', cursive;
     font-weight: normal;
     padding: 1em;
-    /*size: auto;*/
     text-align: center;
 }
 
@@ -194,8 +193,8 @@ body {
     display: flex;
     flex-wrap: wrap;
     margin: auto;
-    perspective: 1000px;
     -webkit-perspective: 1000px;
+    perspective: 1000px;
 }
 
 .fruit-card {
@@ -212,16 +211,16 @@ body {
 }
 
 .fruit-card:active {
+  -webkit-transform: scale(0.97);
   transform: scale(0.97);
   transition: transform .2s;
-  -webkit-transform: scale(0.97);
 
 }
 
 .fruit-card:hover {
+  -webkit-transform: scale(1);
   transform: scale(1);
   transition: transform .2s ease-in-out;
-  -webkit-transform: scale(1);
 }
 
 

@@ -12,7 +12,7 @@ alt="logo"/>
 # Table of Contents :house: <a name="home"></a>
 1. [Introduction](#introduction)
 2. [UX](#ux)
-3. [Wireframe](#wireframe)
+3. [Wireframes](#wireframes)
 4. [Visual Identity](#visualidentity)    
 5. [Site Overview](#siteoverview)
 6. [User Stories](#userstories)
@@ -85,7 +85,8 @@ final destination, which is the game.
 
 - At the top of the page, in the header, are links to go back to the home page and also a direct shortcut to the rules area
 
-**Restart button**-
+**Restart button**
+
 - I felt that it would be good for the user experience to provide a 'restart'  button which resets the game to the initial stage, so that the user doesn't need to refresh or reload
   the page itself in order to see the new board. This button follows the same styling as the 'PLAY NOW' button which is on the home page with regards to the dotted outline.
 
@@ -104,19 +105,17 @@ a substantial change to the page design at that point. Again, this wireframe was
 [wireframes for MS2 Fruity Game](https://github.com/maxnyla/fruity-game/tree/master/assets/wireframes)
 
 
+[Home page wireframe web](https://github.com/maxnyla/fruity-game/tree/master/assets/wireframes/1-home_web.png)
 
-![Home Page wireframe web](assets/wireframes/1-home_web.png)
+[Home page wireframe mobile](https://github.com/maxnyla/fruity-game/tree/master/assets/wireframes/2-home_mob.png)
 
-![Home Page wireframe web](assets/wireframes/2-home_mob.png)
+[Game page wireframe web](https://github.com/maxnyla/fruity-game/tree/master/assets/wireframes/3-game_web.png)
 
-![Home Page wireframe web](assets/wireframes/3-game_web.png)
+[Game page wireframe mobile](https://github.com/maxnyla/fruity-game/tree/master/assets/wireframes/4-game_mob.png)
 
-![Home Page wireframe web](assets/wireframes/4-game_mob.png)
+[Game finished page wireframe web](https://github.com/maxnyla/fruity-game/tree/master/assets/wireframes/5-game_done_web.png)
 
-![Home Page wireframe web](assets/wireframes/5-game_done_web.png)
-
-![Home Page wireframe web](assets/wireframes/6-game_done_mob.png)
-
+[Game finished page wireframe mobile](https://github.com/maxnyla/fruity-game/tree/master/assets/wireframes/6-game_done_mob.png)
 
 
 ## Visual Identity <a name="visualidentity"></a>
@@ -175,6 +174,14 @@ Below are a series of images taken which show an overview of all the pages on th
 - Users want a clear message stating that they have finished the game
 
 - Users want a clear indication of where or how they can start the game again if they wish to do so
+
+
+**Site owner:**
+
+- As the site owner, the main goal is that the user has a great experience and has fun. 
+
+- Secondary goals are for the navigation through the site to be clear and that all the necessary information for the user to complete the game is there.
+
 
 
 
