@@ -3,31 +3,30 @@
 /* Navigation */
 
 .bg-custom-pink {
-    background-color: rgba(177, 43, 136, 0.92);
+  background-color: #b12b88;
 }
 
 .logo {
-    height: auto;
-    width: 8em;
+  height: auto;
+  width: 8em;
 }
 
-
 .navbar-menu {
-    color: white;
-	font-size: .8em;
-    letter-spacing: .1em;
-	list-style-type: none;
-	margin-left: auto;
+  color: white;
+  font-size: .8em;
+  letter-spacing: .1em;
+  list-style-type: none;
+  margin-left: auto;
 }
 
 .navbar-dark .navbar-nav .nav-link {
-	color: white;
+  color: white;
 }
 
 .navbar-dark .navbar-nav .nav-link:hover {
-    color: rgb(49, 221, 252);
-    font-style: italic;
-	text-decoration: none;
+  color: #31ddfc;
+  font-style: italic;
+  text-decoration: none;
 }
 
 
@@ -35,166 +34,159 @@
 
 
 .game-title {
-    color: #e1ff08;
-    font-family: 'Monoton', cursive;
-    font-size: 3em;
+  color: #e1ff08;
+  font-family: 'Monoton', cursive;
+  font-size: 3em;
 }
 
 .game-rules-header {
-    color: aqua;
+  color: aqua;
 }
-
 
 .game-rules-text {
-    color: white;
-    font-size: 1.5em;
+  color: white;
+  font-size: 1.5em;
 }
 
-
 .main-photo-container {
-	justify-content: center;
+  justify-content: center;
 }
 
 .main-home-container {
-    background-color: #fd7cd5;
+  background-color: #fd7cd5;
 }
 
-
 .game-link-text {
-    color: white;
-    font-size: 3em;
+  color: white;
+  font-size: 3em;
 }
 
 .game-link-button {
-    background-color: cyan;
-    border-radius: 7em;
-    border-style: dashed;
-    color: #f70b79;
-    font-weight: 800;
-    padding: 1.4em;
-    text-align: center;
-    text-decoration: none;
-    text-transform: uppercase;
+  background-color: cyan;
+  border-radius: 7em;
+  border-style: dashed;
+  color: #f70b79;
+  font-weight: 800;
+  padding: 1.4em;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
 .game-link-button a {
-    background-color: transparent;
-    text-decoration: none;
-    text-transform: uppercase;
+  background-color: transparent;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
 
 /* Footer */
 
 .myfooter-home {
-    background-color: white;
-    color: rgba(177, 43, 136, 0.92);
-	font-size: 1.4em;
-	font-weight: 500;
-    left: 0;
-	width: 100%;
+  background-color: white;
+  color: #b12b88;
+  font-size: 1.4em;
+  font-weight: 500;
+  left: 0;
+  width: 100%;
 }
 
-
 .social-networks {
-    text-align: center;
+  text-align: center;
 }
 
 .fa-trophy {
-    color: cyan;
+  color: cyan;
 }
 
 .social-media a {
-    color: #a519ec;
-    font-weight: 500;
+  color: #a519ec;
+  font-weight: 500;
 }
 
-
 .social-media i {
-    color: rgba(177, 43, 136, 0.92);
-	font-size: 1em;
-	margin: .4em;
-	padding: .4em;
+  color: #b12b88;
+  font-size: 1em;
+  margin: .4em;
+  padding: .4em;
 }
 
 .social-media a:hover,
 .social-media-home a:hover {
-	color: aqua;
+  color: aqua;
 }
 
 .social-media i:hover,
 .social-media-home i:hover {
-	color: aqua;
+  color: aqua;
 }
-
 
 .myfooter-game {
-    background-color: black;
-    color: rgba(177, 43, 136, 0.92);
-	font-size: 1.4em;
-	font-weight: 500;
-    left: 0;
-	width: 100%;
+  background-color: black;
+  color: #b12b88;
+  font-size: 1.4em;
+  font-weight: 500;
+  left: 0;
+  width: 100%;
 }
 
-
 .social-media-game a {
-    color: #75d81a;
-    font-weight: 500;
+  color: #75d81a;
+  font-weight: 500;
 }
 
 
 /* GAME PAGE */
 
 #congrats {
-    display: none;
+  display: none;
 }
 
 .main-container {
-    background-color: #040404;
+  background-color: #040404;
 }
 
 .try-header-text {
-    color: #09d9fb;
-    font-family: 'Bungee Inline', cursive;
+  color: #09d9fb;
+  font-family: 'Bungee Inline', cursive;
 }
 
 .congrats-text {
-    color: white;
-    font-family: 'Bungee Inline', cursive;
+  color: white;
+  font-family: 'Bungee Inline', cursive;
 }
 
-
 .reload {
-    background-color: #47234a42;
-    border-radius: 7em;
-    border-style: dashed; 
-    color: #f70b79;
-    font-family: 'Rammetto One', cursive;
-    font-weight: normal;
-    padding: 1em;
-    text-align: center;
+  background-color: #47234a42;
+  border-radius: 7em;
+  border-style: dashed;
+  color: #f70b79;
+  font-family: 'Rammetto One', cursive;
+  font-weight: normal;
+  padding: 1em;
+  text-align: center;
 }
 
 /* -----------------------------*/
 
 
 body {
-   min-height: 100vh;
+  min-height: 100vh;
 }
 
 .game-body {
-    background-color: black;
+  background-color: black;
 }
 
 .fruit-game {
-    background: black;
-    box-sizing: border-box;
-    display: flex;
-    flex-wrap: wrap;
-    margin: auto;
-    -webkit-perspective: 1000px;
-    perspective: 1000px;
+  background: black;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  -ms-perspective: 1000px;
+  -webkit-perspective: 1000px;
+  perspective: 1000px;
 }
 
 .fruit-card {
@@ -202,6 +194,8 @@ body {
   height: 250px;
   margin: 2px;
   position: relative;
+  -ms-transform: scale(1);
+  -ms-transform-style: preserve-3d;
   -webkit-transform: scale(1);
   -webkit-transform-style: preserve-3d;
   transform: scale(1);
@@ -211,25 +205,24 @@ body {
 }
 
 .fruit-card:active {
+  -ms-transform: scale(0.97);
   -webkit-transform: scale(0.97);
   transform: scale(0.97);
   transition: transform .2s;
-
 }
 
 .fruit-card:hover {
+  -ms-transform: scale(1);
   -webkit-transform: scale(1);
   transform: scale(1);
   transition: transform .2s ease-in-out;
 }
 
-
 .fruit-card.flip {
- -webkit-transform: rotateY(180deg);
+  -ms-transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
   transform: rotateY(180deg);
- 
 }
-
 
 .front-card {
   backface-visibility: hidden;
@@ -238,11 +231,11 @@ body {
   height: 100%;
   padding: 5px;
   position: absolute;
+  -ms-transform: rotateY(180deg);
   -webkit-transform: rotateY(180deg);
   transform: rotateY(180deg);
   width: 100%;
 }
-
 
 .back-card {
   backface-visibility: hidden;
@@ -261,228 +254,212 @@ body {
 /* settings for mobile up to tablet and small laptop/desktop size*/
 
 @media screen and (max-width: 383px) {
-    .front-card {
-        display: inline-flex;
-        height: 70px;
-        margin: 1px;
-        width: 70px;
-    }
+  .front-card {
+    display: inline-flex;
+    height: 70px;
+    margin: 1px;
+    width: 70px;
+  }
 
-    .back-card {
-        display: inline-flex;
-        height: 70px;
-        margin: 1px;
-        width: 70px;
-    }
+  .back-card {
+    display: inline-flex;
+    height: 70px;
+    margin: 1px;
+    width: 70px;
+  }
 
-    .fruit-card {
-        display: inline-flex;
-        height: 70px;
-        margin: 1px;
-        width: 70px;
-     }
+  .fruit-card {
+    display: inline-flex;
+    height: 70px;
+    margin: 1px;
+    width: 70px;
+  }
 
-	.navbar-menu,
+  .navbar-menu,
 	.navbar-dark,
 	.navbar-nav,
 	.nav-link {
-		font-size: .7em;
-		letter-spacing: 0;
-	}
+    font-size: .7em;
+    letter-spacing: 0;
+  }
 
-    .logo {
-        height: auto;
-        width: 5em;
-    }
+  .logo {
+    height: auto;
+    width: 5em;
+  }
 
-    .game-title {
-        font-size: 2em;
-    }
+  .game-title {
+    font-size: 2em;
+  }
 
-    .game-rules-header {
-        font-size: 1.4em;
-        font-weight: 700;
-    }
+  .game-rules-header {
+    font-size: 1.4em;
+    font-weight: 700;
+  }
 
-    .game-rules-text {
-        font-size: 1em;
-        font-weight: 500;
-    }
+  .game-rules-text {
+    font-size: 1em;
+    font-weight: 500;
+  }
 
+  h1 {
+    font-size: 1.5rem;
+  }
 
-	h1 {
-		font-size: 1.5rem;
-	}
-    
+  .social-media i {
+    font-size: 1.1em;
+  }
 
-	.social-media i {
-		font-size: 1.1em;
-	}
+  .footer-text {
+    font-size: .6em;
+    font-weight: bold;
+  }
 
-    .footer-text {
-        font-size: .6em;
-        font-weight:bold;
-    }
-
-     .try-header-text,
+  .try-header-text,
      .congrats-text {
-        font-size: 2rem;
-    }
+    font-size: 2rem;
+  }
 
-    .reload {
-        background-color: #47234a42;
-        border-radius: 4em;
-        color: #f70b79;
-        font-family: 'Rammetto One', cursive;
-        font-size: small;
-        font-weight: normal;
-        padding: .4em;
-        /*size: auto;*/
-        text-align: center;
-    }
+  .reload {
+    background-color: #47234a42;
+    border-radius: 4em;
+    color: #f70b79;
+    font-family: 'Rammetto One', cursive;
+    font-size: small;
+    font-weight: normal;
+    padding: .4em;
+    text-align: center;
+  }
 }
-
 
 @media screen and (max-width: 768px) and (min-width: 384px) {
-	.navbar-menu,
+  .navbar-menu,
 	.navbar-dark,
 	.navbar-nav,
 	.nav-link {
-		font-size: .7em;
-		letter-spacing: 0;
-	}
+    font-size: .7em;
+    letter-spacing: 0;
+  }
 
-    .logo {
-        height: auto;
-        width: 6em;
-    }
+  .logo {
+    height: auto;
+    width: 6em;
+  }
 
-    .game-title {
-        font-size: 2em;
-    }
+  .game-title {
+    font-size: 2em;
+  }
 
-    .game-rules-header {
-        font-size: 1.4em;
-        font-weight: 700;
-    }
+  .game-rules-header {
+    font-size: 1.4em;
+    font-weight: 700;
+  }
 
-    .game-rules-text {
-        font-size: 1em;
-        font-weight: 500;
-    }
+  .game-rules-text {
+    font-size: 1em;
+    font-weight: 500;
+  }
 
+  h1 {
+    font-size: 1.5rem;
+  }
 
-	h1 {
-		font-size: 1.5rem;
-	}
-    
+  .social-media i {
+    font-size: 1.1em;
+  }
 
-	.social-media i {
-		font-size: 1.1em;
-	}
+  .footer-text {
+    font-size: .6em;
+    font-weight: bold;
+  }
 
-    .footer-text {
-        font-size: .6em;
-        font-weight:bold;
-    }
-
-    .try-header-text,
+  .try-header-text,
     .congrats-text {
-        font-size: 2rem;
-    }
+    font-size: 2rem;
+  }
 
-    .front-card,
+  .front-card,
     .back-card {
-        display: inline-flex;
-        height: 110px;
-        margin: 1px;
-        width: 110px;
-    }
+    display: inline-flex;
+    height: 110px;
+    margin: 1px;
+    width: 110px;
+  }
 
-    .fruit-card {
-        display: inline-flex;
-        height: 110px;
-        margin: 1px;
-        width: 110px;
-    }
+  .fruit-card {
+    display: inline-flex;
+    height: 110px;
+    margin: 1px;
+    width: 110px;
+  }
 
-   .reload {
-        background-color: #47234a42;
-        border-radius: 4em;
-        color: #f70b79;
-        font-family: 'Rammetto One', cursive;
-        font-size: small;
-        font-weight: normal;
-        padding: .6em;
-        /*size: auto;*/
-        text-align: center;
-    }
-
+  .reload {
+    background-color: #47234a42;
+    border-radius: 4em;
+    color: #f70b79;
+    font-family: 'Rammetto One', cursive;
+    font-size: small;
+    font-weight: normal;
+    padding: .6em;
+    text-align: center;
+  }
 }
-
 
 @media only screen and (max-width: 992px) and (min-width: 768px) {
     
-    .logo {
-        height: auto;
-        width: 7em;
-    }
-    
-    .try-header-text,
+  .logo {
+    height: auto;
+    width: 7em;
+  }
+
+  .try-header-text,
     .congrats-text {
-        font-size: 3rem;
-    }
+    font-size: 3rem;
+  }
 
-    .front-card,
+  .front-card,
     .back-card {
-        display: inline-flex;
-        height: 160px;
-        margin: 1px;
-        width: 160px;
-    }
+    display: inline-flex;
+    height: 160px;
+    margin: 1px;
+    width: 160px;
+  }
 
-
-    .fruit-card {
-        display: inline-flex;
-        height: 160px;
-        margin: 1px;
-        width: 160px;
-    }
-
+  .fruit-card {
+    display: inline-flex;
+    height: 160px;
+    margin: 1px;
+    width: 160px;
+  }
 }
-
-
-
 
 @media only screen and (max-width: 1199px) and (min-width: 993px) {
      
-    .try-header-text,
+  .try-header-text,
     .congrats-text {
-        font-size: 3.5rem;
-    }
+    font-size: 3.5rem;
+  }
 
-
-    .front-card,
+  .front-card,
     .back-card {
-        display: inline-flex;
-        height: 215px;
-        margin: 1px;
-        width: 215px;
-    }
+    display: inline-flex;
+    height: 215px;
+    margin: 1px;
+    width: 215px;
+  }
 
-    .fruit-card {
-        display: inline-flex;
-        height: 215px;
-        margin: 1px;
-        width: 215px;
-    }
+  .fruit-card {
+    display: inline-flex;
+    height: 215px;
+    margin: 1px;
+    width: 215px;
+  }
 }
 
-
 @media only screen and (max-width: 1700px) and (min-width: 1200px) {
-    .try-header-text,
+  .try-header-text,
     congrats-text {
-        font-size: 4rem;
-    }
+    font-size: 4rem;
+  }
 }
 
