@@ -102,7 +102,7 @@ a substantial change to the page design at that point. Again, this wireframe was
 
 * The wireframes can be found here:
 
-[wireframes for MS2 Fruity Game](https://github.com/maxnyla/fruity-game/tree/master/assets/wireframes)
+[All wireframes for MS2 Fruity Game](https://github.com/maxnyla/fruity-game/tree/master/assets/wireframes)
 
 
 [Home page wireframe web](https://github.com/maxnyla/fruity-game/tree/master/assets/wireframes/1-home_web.png)
@@ -140,21 +140,39 @@ I used LogoMakr to design the logo.
 
 Below are a series of images taken which show an overview of all the pages on the site and their different stages:
 
+**Home page:**
 
 ![Home Page](assets/site_overview/home.png)
 
 
+**Game page before game starts:**
+
 ![Game page before game starts](assets/site_overview/game1.png)
 
 
+**Game page with all cards matched and game about to be completed:**
+
 ![Game page with all cards matched and game about to be completed](assets/site_overview/game2.png)
+
+
+**Game page once game has been won:**
 
 
 ![Game page once game has been won](assets/site_overview/game3.png)
 
 
+Because there are many images in this project, and for the purpose of improving user experience, I have compressed the images using [tinypng.com](https://tinypng.com/) 
+
+As can be seen below, the total reduction in image size on this site has been 53% (7MB).
+
+
+![tinypng image size saving results](assets/img/compression_result.png)
+
+
 
 ## User Stories <a name="userstories"></a>
+
+The different goals and aims of the game, when viewed from a user perspective or the site owner's perspective are below.
 
 
 **Users:**
@@ -178,17 +196,26 @@ Below are a series of images taken which show an overview of all the pages on th
 
 **Site owner:**
 
-- As the site owner, the main goal is that the user has a great experience and has fun. 
+- The site owner's main goal is that the user has a great experience and has fun
 
-- Secondary goals are for the navigation through the site to be clear and that all the necessary information for the user to complete the game is there.
+- The site owner wants the navigation through the site to be clear and easy
 
+- The site owner wants the game and the site to be intuitive so instructions can be kept to a bare minimum
+
+- The site owner wants all the necessary information for the user to complete the game to be readily accessible and easy to understand
+
+- The site owner wants the visuals of the game to be appealling and for the colours and design of the site to draw the user in
+
+- The site owner wants the user to have a clear message once the game is finished
+
+- The site owner wants to make it straightforward for the user to restart the game when desired
 
 
 
 ## Testing <a name="testing"></a>
 
 This website has been tested through the GTMetrix site, [GTmetrix](https://gtmetrix.com).
-Below is a screenshot of the results achieved for each page. Page speed score was 96% and the time to fully load the site was 1.7s.
+Below is a screenshot of the results achieved for each page. Page speed score was 96% and the time to fully load the site was 1.6s.
 
 ![Website Speed Test Results home](assets/img/performance1.png)
 
@@ -197,9 +224,14 @@ Below is a screenshot of the results achieved for each page. Page speed score wa
 
 
 
-
-
 **Demo/Testing**
+
+I have deployed the site on a number of occasions throughout the building process, so that I could test it from different devices such as my mobile and tablet and check for responsiveness.
+
+During this testing I realised that I had to make some design changes to areas that I was not satisfied with, as the viewing experience on the mobile devices was not great.
+I have therefore made many changes as I went along in order to make it more responsive or easier to navigate.
+Some of these changes are broken down below:
+
 
 
 
@@ -209,6 +241,9 @@ Below is a screenshot of the results achieved for each page. Page speed score wa
 **Deployment**
 
 This website has been deployed to GitHub Pages as [Fruity Game](https://maxnyla.github.io/fruity-game)
+
+It was deployed ahead of time and modified on a number of occasions so that I would be able to check how things worked on different devices, and to ask others to test it themselves. 
+
 
 The process for deployment is documented below:
 
