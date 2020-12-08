@@ -195,6 +195,7 @@ body {
     flex-wrap: wrap;
     margin: auto;
     perspective: 1000px;
+    -webkit-perspective: 1000px;
 }
 
 .fruit-card {
