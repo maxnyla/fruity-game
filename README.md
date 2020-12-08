@@ -439,7 +439,9 @@ Some of them are:
 - Font Awesome
 - jQuery developers
 - LogoMakr
+- Vectorstock
 - Stack Overload
+- Freecodecamp
 - Slack 
 - Google (for all the things that I've looked up during this project, which have led me to all these amazing sites)
 - Thanks to Danika for letting me use her fantastic illustration
